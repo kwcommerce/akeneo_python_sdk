@@ -27,11 +27,13 @@ class ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner(BaseModel):
     """
     ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner
     """ # noqa: E501
+    scope: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Channel'>Channel</a> code of the product value")
+    locale: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Locale'>Locale</a> code of the product value")
     data: Optional[Dict[str, Any]] = Field(default=None, description="Product value. See <a href='/concepts/products.html#the-data-format'>the `data` format</a> section for more details.")
     linked_data: Optional[ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInnerLinkedData] = None
     attribute_type: Optional[StrictStr] = Field(default=None, description="The type of the value's attribute. See <a href='/concepts/catalog-structure.html#attribute'>type</a> section for more details.")
     reference_data_name: Optional[StrictStr] = Field(default=None, description="Reference entity code when the attribute type is `akeneo_reference_entity` or `akeneo_reference_entity_collection` OR Asset family code when the attribute type is `pim_catalog_asset_collection`")
-    __properties: ClassVar[List[str]] = ["data", "linked_data", "attribute_type", "reference_data_name"]
+    __properties: ClassVar[List[str]] = ["scope", "locale", "data", "linked_data", "attribute_type", "reference_data_name"]
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -87,6 +89,8 @@ class ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
+            "scope": obj.get("scope"),
+            "locale": obj.get("locale"),
             "data": obj.get("data"),
             "linked_data": ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInnerLinkedData.from_dict(obj["linked_data"]) if obj.get("linked_data") is not None else None,
             "attribute_type": obj.get("attribute_type"),

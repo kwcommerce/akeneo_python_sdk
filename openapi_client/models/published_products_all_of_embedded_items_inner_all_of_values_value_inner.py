@@ -17,7 +17,7 @@ import pprint
 import re  # noqa: F401
 import json
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
 from typing import Optional, Set
 from typing_extensions import Self
@@ -26,8 +26,10 @@ class PublishedProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner(BaseModel):
     """
     PublishedProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner
     """ # noqa: E501
+    scope: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Channel'>Channel</a> code of the product value")
+    locale: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Locale'>Locale</a> code of the product value")
     data: Optional[Dict[str, Any]] = Field(default=None, description="<a href='api-reference.html#Productuuid'>Product</a> value")
-    __properties: ClassVar[List[str]] = ["data"]
+    __properties: ClassVar[List[str]] = ["scope", "locale", "data"]
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -80,6 +82,8 @@ class PublishedProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
+            "scope": obj.get("scope"),
+            "locale": obj.get("locale"),
             "data": obj.get("data")
         })
         return _obj

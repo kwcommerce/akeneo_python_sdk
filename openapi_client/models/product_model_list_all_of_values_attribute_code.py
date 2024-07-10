@@ -17,7 +17,7 @@ import pprint
 import re  # noqa: F401
 import json
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
 from openapi_client.models.product_model_list_all_of_values_linked_data import ProductModelListAllOfValuesLinkedData
 from typing import Optional, Set
@@ -27,9 +27,11 @@ class ProductModelListAllOfValuesAttributeCode(BaseModel):
     """
     ProductModelListAllOfValuesAttributeCode
     """ # noqa: E501
+    scope: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Channel'>Channel</a> code of the product value")
+    locale: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Locale'>Locale</a> code of the product value")
     data: Optional[Dict[str, Any]] = Field(default=None, description="<a href='api-reference.html#Productuuid'>Product</a> value")
     linked_data: Optional[ProductModelListAllOfValuesLinkedData] = None
-    __properties: ClassVar[List[str]] = ["data", "linked_data"]
+    __properties: ClassVar[List[str]] = ["scope", "locale", "data", "linked_data"]
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -85,6 +87,8 @@ class ProductModelListAllOfValuesAttributeCode(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
+            "scope": obj.get("scope"),
+            "locale": obj.get("locale"),
             "data": obj.get("data"),
             "linked_data": ProductModelListAllOfValuesLinkedData.from_dict(obj["linked_data"]) if obj.get("linked_data") is not None else None
         })

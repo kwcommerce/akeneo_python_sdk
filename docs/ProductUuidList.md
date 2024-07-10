@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 **categories** | **List[str]** | Codes of the &lt;a href&#x3D;&#39;api-reference.html#Category&#39;&gt;categories&lt;/a&gt; in which the product is classified | [optional] 
 **groups** | **List[str]** | Codes of the groups to which the product belong | [optional] 
 **parent** | **str** | Code of the parent &lt;a href&#x3D;&#39;api-reference.html#Productmodel&#39;&gt;product model&lt;/a&gt; when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3. | [optional] [default to 'null']
-**values** | [**ProductListAllOfValues**](ProductListAllOfValues.md) |  | [optional] 
+**values** | **Dict[str, List[ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner]]** | Product attributes values, see &lt;a href&#x3D;&#39;/concepts/products.html#focus-on-the-product-values&#39;&gt;Product values&lt;/a&gt; section for more details | [optional] 
 **associations** | [**ProductsAllOfEmbeddedItemsInnerAllOfAssociations**](ProductsAllOfEmbeddedItemsInnerAllOfAssociations.md) |  | [optional] 
 **quantified_associations** | [**ProductsAllOfEmbeddedItemsInnerAllOfQuantifiedAssociations**](ProductsAllOfEmbeddedItemsInnerAllOfQuantifiedAssociations.md) |  | [optional] 
 **created** | **str** | Date of creation | [optional] 

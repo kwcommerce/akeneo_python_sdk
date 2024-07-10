@@ -23,7 +23,7 @@ from openapi_client.models.products_all_of_embedded_items_inner_all_of_associati
 from openapi_client.models.products_all_of_embedded_items_inner_all_of_completenesses_inner import ProductsAllOfEmbeddedItemsInnerAllOfCompletenessesInner
 from openapi_client.models.products_all_of_embedded_items_inner_all_of_metadata import ProductsAllOfEmbeddedItemsInnerAllOfMetadata
 from openapi_client.models.products_all_of_embedded_items_inner_all_of_quantified_associations import ProductsAllOfEmbeddedItemsInnerAllOfQuantifiedAssociations
-from openapi_client.models.products_all_of_embedded_items_inner_all_of_values import ProductsAllOfEmbeddedItemsInnerAllOfValues
+from openapi_client.models.products_all_of_embedded_items_inner_all_of_values_value_inner import ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner
 from typing import Optional, Set
 from typing_extensions import Self
 
@@ -37,7 +37,7 @@ class PostProductsUuidRequest(BaseModel):
     categories: Optional[List[StrictStr]] = Field(default=None, description="Codes of the <a href='api-reference.html#Category'>categories</a> in which the product is classified")
     groups: Optional[List[StrictStr]] = Field(default=None, description="Codes of the groups to which the product belong")
     parent: Optional[StrictStr] = Field(default='null', description="Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.")
-    values: Optional[ProductsAllOfEmbeddedItemsInnerAllOfValues] = None
+    values: Optional[Dict[str, List[ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner]]] = Field(default=None, description="Product attributes values, see <a href='/concepts/products.html#focus-on-the-product-values'>Product values</a> section for more details")
     associations: Optional[ProductsAllOfEmbeddedItemsInnerAllOfAssociations] = None
     quantified_associations: Optional[ProductsAllOfEmbeddedItemsInnerAllOfQuantifiedAssociations] = None
     created: Optional[StrictStr] = Field(default=None, description="Date of creation")
@@ -86,9 +86,15 @@ class PostProductsUuidRequest(BaseModel):
             exclude=excluded_fields,
             exclude_none=True,
         )
-        # override the default output from pydantic by calling `to_dict()` of values
+        # override the default output from pydantic by calling `to_dict()` of each value in values (dict of array)
+        _field_dict_of_array = {}
         if self.values:
-            _dict['values'] = self.values.to_dict()
+            for _key in self.values:
+                if self.values[_key] is not None:
+                    _field_dict_of_array[_key] = [
+                        _item.to_dict() for _item in self.values[_key]
+                    ]
+            _dict['values'] = _field_dict_of_array
         # override the default output from pydantic by calling `to_dict()` of associations
         if self.associations:
             _dict['associations'] = self.associations.to_dict()
@@ -123,7 +129,14 @@ class PostProductsUuidRequest(BaseModel):
             "categories": obj.get("categories"),
             "groups": obj.get("groups"),
             "parent": obj.get("parent") if obj.get("parent") is not None else 'null',
-            "values": ProductsAllOfEmbeddedItemsInnerAllOfValues.from_dict(obj["values"]) if obj.get("values") is not None else None,
+            "values": dict(
+                (_k,
+                        [ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner.from_dict(_item) for _item in _v]
+                        if _v is not None
+                        else None
+                )
+                for _k, _v in obj.get("values", {}).items()
+            ),
             "associations": ProductsAllOfEmbeddedItemsInnerAllOfAssociations.from_dict(obj["associations"]) if obj.get("associations") is not None else None,
             "quantified_associations": ProductsAllOfEmbeddedItemsInnerAllOfQuantifiedAssociations.from_dict(obj["quantified_associations"]) if obj.get("quantified_associations") is not None else None,
             "created": obj.get("created"),

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 **family** | **str** | &lt;a href&#x3D;&#39;api-reference.html#Family&#39;&gt;Family&lt;/a&gt; code from which the published product inherits its attributes and attributes requirements | [optional] [default to 'null']
 **categories** | **List[str]** | Codes of the &lt;a href&#x3D;&#39;api-reference.html#Category&#39;&gt;categories&lt;/a&gt; in which the published product is classified | [optional] 
 **groups** | **List[str]** | Codes of the groups to which the published product belong | [optional] 
-**values** | [**PublishedProductListAllOfValues**](PublishedProductListAllOfValues.md) |  | [optional] 
+**values** | **Dict[str, List[PublishedProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner]]** | Product attributes values, see &lt;a href&#x3D;&#39;/concepts/products.html#focus-on-the-product-values&#39;&gt;Product values&lt;/a&gt; section for more details | [optional] 
 **associations** | [**PublishedProductsAllOfEmbeddedItemsInnerAllOfAssociations**](PublishedProductsAllOfEmbeddedItemsInnerAllOfAssociations.md) |  | [optional] 
 **quantified_associations** | **object** | Warning: associations with quantities are not compatible with the published products. The response will always be empty. | [optional] 
 **created** | **str** | Date of creation | [optional] 

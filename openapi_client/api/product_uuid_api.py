@@ -21,7 +21,6 @@ from typing import Optional
 from typing_extensions import Annotated
 from openapi_client.models.patch_products_uuid200_response import PatchProductsUuid200Response
 from openapi_client.models.patch_products_uuid_request import PatchProductsUuidRequest
-from openapi_client.models.patch_products_uuid_uuid_request import PatchProductsUuidUuidRequest
 from openapi_client.models.post_products_uuid_request import PostProductsUuidRequest
 from openapi_client.models.products import Products
 
@@ -1681,7 +1680,7 @@ class ProductUuidApi:
     def patch_products_uuid_uuid(
         self,
         uuid: Annotated[StrictStr, Field(description="Uuid of the resource")],
-        body: PatchProductsUuidUuidRequest,
+        body: PostProductsUuidRequest,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -1702,7 +1701,7 @@ class ProductUuidApi:
         :param uuid: Uuid of the resource (required)
         :type uuid: str
         :param body: (required)
-        :type body: PatchProductsUuidUuidRequest
+        :type body: PostProductsUuidRequest
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
                                  timeout. It can also be a pair (tuple) of
@@ -1757,7 +1756,7 @@ class ProductUuidApi:
     def patch_products_uuid_uuid_with_http_info(
         self,
         uuid: Annotated[StrictStr, Field(description="Uuid of the resource")],
-        body: PatchProductsUuidUuidRequest,
+        body: PostProductsUuidRequest,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -1778,7 +1777,7 @@ class ProductUuidApi:
         :param uuid: Uuid of the resource (required)
         :type uuid: str
         :param body: (required)
-        :type body: PatchProductsUuidUuidRequest
+        :type body: PostProductsUuidRequest
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
                                  timeout. It can also be a pair (tuple) of
@@ -1833,7 +1832,7 @@ class ProductUuidApi:
     def patch_products_uuid_uuid_without_preload_content(
         self,
         uuid: Annotated[StrictStr, Field(description="Uuid of the resource")],
-        body: PatchProductsUuidUuidRequest,
+        body: PostProductsUuidRequest,
         _request_timeout: Union[
             None,
             Annotated[StrictFloat, Field(gt=0)],
@@ -1854,7 +1853,7 @@ class ProductUuidApi:
         :param uuid: Uuid of the resource (required)
         :type uuid: str
         :param body: (required)
-        :type body: PatchProductsUuidUuidRequest
+        :type body: PostProductsUuidRequest
         :param _request_timeout: timeout setting for this request. If one
                                  number provided, it will be total request
                                  timeout. It can also be a pair (tuple) of

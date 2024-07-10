@@ -435,6 +435,7 @@ Class | Method | HTTP request | Description
  - [PatchProductsRequest](docs/PatchProductsRequest.md)
  - [PatchProductsUuid200Response](docs/PatchProductsUuid200Response.md)
  - [PatchProductsUuidRequest](docs/PatchProductsUuidRequest.md)
+ - [PatchProductsUuidUuidRequest](docs/PatchProductsUuidUuidRequest.md)
  - [PatchReferenceEntityCodeRequest](docs/PatchReferenceEntityCodeRequest.md)
  - [PatchReferenceEntityRecords200ResponseInner](docs/PatchReferenceEntityRecords200ResponseInner.md)
  - [PatchReferenceEntityRecordsCodeRequest](docs/PatchReferenceEntityRecordsCodeRequest.md)

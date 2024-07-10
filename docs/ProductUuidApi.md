@@ -416,7 +416,7 @@ This endpoint allows you to update a given product. Learn more about <a href=\"/
 
 ```python
 import openapi_client
-from openapi_client.models.post_products_uuid_request import PostProductsUuidRequest
+from openapi_client.models.patch_products_uuid_uuid_request import PatchProductsUuidUuidRequest
 from openapi_client.rest import ApiException
 from pprint import pprint
 
@@ -432,7 +432,7 @@ with openapi_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = openapi_client.ProductUuidApi(api_client)
     uuid = 'uuid_example' # str | Uuid of the resource
-    body = openapi_client.PostProductsUuidRequest() # PostProductsUuidRequest | 
+    body = openapi_client.PatchProductsUuidUuidRequest() # PatchProductsUuidUuidRequest | 
 
     try:
         # Update/create a product
@@ -449,7 +449,7 @@ with openapi_client.ApiClient(configuration) as api_client:
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **uuid** | **str**| Uuid of the resource | 
- **body** | [**PostProductsUuidRequest**](PostProductsUuidRequest.md)|  | 
+ **body** | [**PatchProductsUuidUuidRequest**](PatchProductsUuidUuidRequest.md)|  | 
 
 ### Return type
 

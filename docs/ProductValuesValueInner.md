@@ -1,10 +1,11 @@
-# ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner
+# ProductValuesValueInner
 
 
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
+**locale** | **str** | &lt;a href&#x3D;&#39;api-reference.html#Locale&#39;&gt;Locale&lt;/a&gt; code of the product value | [optional] 
 **data** | **object** | Product value. See &lt;a href&#x3D;&#39;/concepts/products.html#the-data-format&#39;&gt;the &#x60;data&#x60; format&lt;/a&gt; section for more details. | [optional] 
 **linked_data** | [**ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInnerLinkedData**](ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInnerLinkedData.md) |  | [optional] 
 **attribute_type** | **str** | The type of the value&#39;s attribute. See &lt;a href&#x3D;&#39;/concepts/catalog-structure.html#attribute&#39;&gt;type&lt;/a&gt; section for more details. | [optional] 
@@ -13,19 +14,19 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.products_all_of_embedded_items_inner_all_of_values_value_inner import ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner
+from openapi_client.models.product_values_value_inner import ProductValuesValueInner
 
 # TODO update the JSON string below
 json = "{}"
-# create an instance of ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner from a JSON string
-products_all_of_embedded_items_inner_all_of_values_value_inner_instance = ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner.from_json(json)
+# create an instance of ProductValuesValueInner from a JSON string
+product_values_value_inner_instance = ProductValuesValueInner.from_json(json)
 # print the JSON string representation of the object
-print(ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner.to_json())
+print(ProductValuesValueInner.to_json())
 
 # convert the object into a dict
-products_all_of_embedded_items_inner_all_of_values_value_inner_dict = products_all_of_embedded_items_inner_all_of_values_value_inner_instance.to_dict()
-# create an instance of ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner from a dict
-products_all_of_embedded_items_inner_all_of_values_value_inner_from_dict = ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner.from_dict(products_all_of_embedded_items_inner_all_of_values_value_inner_dict)
+product_values_value_inner_dict = product_values_value_inner_instance.to_dict()
+# create an instance of ProductValuesValueInner from a dict
+product_values_value_inner_from_dict = ProductValuesValueInner.from_dict(product_values_value_inner_dict)
 ```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

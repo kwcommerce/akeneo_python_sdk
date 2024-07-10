@@ -17,7 +17,7 @@ import pprint
 import re  # noqa: F401
 import json
 
-from pydantic import BaseModel, ConfigDict, Field, StrictStr
+from pydantic import BaseModel, ConfigDict, Field
 from typing import Any, ClassVar, Dict, List, Optional
 from openapi_client.models.product_models_all_of_embedded_items_inner_all_of_values_attribute_code_inner_linked_data import ProductModelsAllOfEmbeddedItemsInnerAllOfValuesAttributeCodeInnerLinkedData
 from typing import Optional, Set
@@ -27,11 +27,9 @@ class ProductModelsAllOfEmbeddedItemsInnerAllOfValuesAttributeCodeInner(BaseMode
     """
     ProductModelsAllOfEmbeddedItemsInnerAllOfValuesAttributeCodeInner
     """ # noqa: E501
-    scope: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Channel'>Channel</a> code of the product value")
-    locale: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Locale'>Locale</a> code of the product value")
     data: Optional[Dict[str, Any]] = Field(default=None, description="<a href='api-reference.html#Productuuid'>Product</a> value")
     linked_data: Optional[ProductModelsAllOfEmbeddedItemsInnerAllOfValuesAttributeCodeInnerLinkedData] = None
-    __properties: ClassVar[List[str]] = ["scope", "locale", "data", "linked_data"]
+    __properties: ClassVar[List[str]] = ["data", "linked_data"]
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -87,8 +85,6 @@ class ProductModelsAllOfEmbeddedItemsInnerAllOfValuesAttributeCodeInner(BaseMode
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
-            "scope": obj.get("scope"),
-            "locale": obj.get("locale"),
             "data": obj.get("data"),
             "linked_data": ProductModelsAllOfEmbeddedItemsInnerAllOfValuesAttributeCodeInnerLinkedData.from_dict(obj["linked_data"]) if obj.get("linked_data") is not None else None
         })

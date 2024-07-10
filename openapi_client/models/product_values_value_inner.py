@@ -23,15 +23,16 @@ from openapi_client.models.products_all_of_embedded_items_inner_all_of_values_va
 from typing import Optional, Set
 from typing_extensions import Self
 
-class ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner(BaseModel):
+class ProductValuesValueInner(BaseModel):
     """
-    ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner
+    ProductValuesValueInner
     """ # noqa: E501
+    locale: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Locale'>Locale</a> code of the product value")
     data: Optional[Dict[str, Any]] = Field(default=None, description="Product value. See <a href='/concepts/products.html#the-data-format'>the `data` format</a> section for more details.")
     linked_data: Optional[ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInnerLinkedData] = None
     attribute_type: Optional[StrictStr] = Field(default=None, description="The type of the value's attribute. See <a href='/concepts/catalog-structure.html#attribute'>type</a> section for more details.")
     reference_data_name: Optional[StrictStr] = Field(default=None, description="Reference entity code when the attribute type is `akeneo_reference_entity` or `akeneo_reference_entity_collection` OR Asset family code when the attribute type is `pim_catalog_asset_collection`")
-    __properties: ClassVar[List[str]] = ["data", "linked_data", "attribute_type", "reference_data_name"]
+    __properties: ClassVar[List[str]] = ["locale", "data", "linked_data", "attribute_type", "reference_data_name"]
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -51,7 +52,7 @@ class ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner(BaseModel):
 
     @classmethod
     def from_json(cls, json_str: str) -> Optional[Self]:
-        """Create an instance of ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner from a JSON string"""
+        """Create an instance of ProductValuesValueInner from a JSON string"""
         return cls.from_dict(json.loads(json_str))
 
     def to_dict(self) -> Dict[str, Any]:
@@ -79,7 +80,7 @@ class ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner(BaseModel):
 
     @classmethod
     def from_dict(cls, obj: Optional[Dict[str, Any]]) -> Optional[Self]:
-        """Create an instance of ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner from a dict"""
+        """Create an instance of ProductValuesValueInner from a dict"""
         if obj is None:
             return None
 
@@ -87,6 +88,7 @@ class ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInner(BaseModel):
             return cls.model_validate(obj)
 
         _obj = cls.model_validate({
+            "locale": obj.get("locale"),
             "data": obj.get("data"),
             "linked_data": ProductsAllOfEmbeddedItemsInnerAllOfValuesValueInnerLinkedData.from_dict(obj["linked_data"]) if obj.get("linked_data") is not None else None,
             "attribute_type": obj.get("attribute_type"),

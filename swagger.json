@@ -276,11 +276,17 @@
                                         "type": "object",
                                         "properties": {
                                           "scope": {
-                                            "type": "string",
+                                            "type": [
+                                              "string",
+                                              "null"
+                                            ],
                                             "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                                           },
                                           "locale": {
-                                            "type": "string",
+                                            "type": [
+                                              "string",
+                                              "null"
+                                            ],
                                             "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                                           },
                                           "data": {
@@ -1232,11 +1238,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -1811,11 +1823,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -2449,11 +2467,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -2989,11 +3013,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -3775,11 +3805,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -4518,11 +4554,17 @@
                                         "type": "object",
                                         "properties": {
                                           "scope": {
-                                            "type": "string",
+                                            "type": [
+                                              "string",
+                                              "null"
+                                            ],
                                             "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                                           },
                                           "locale": {
-                                            "type": "string",
+                                            "type": [
+                                              "string",
+                                              "null"
+                                            ],
                                             "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                                           },
                                           "data": {
@@ -6535,11 +6577,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -7128,11 +7176,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -7761,11 +7815,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -8318,11 +8378,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -9131,11 +9197,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -9857,11 +9929,17 @@
                                           "type": "object",
                                           "properties": {
                                             "scope": {
-                                              "type": "string",
+                                              "type": [
+                                                "string",
+                                                "null"
+                                              ],
                                               "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                                             },
                                             "locale": {
-                                              "type": "string",
+                                              "type": [
+                                                "string",
+                                                "null"
+                                              ],
                                               "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                                             },
                                             "data": {
@@ -10502,11 +10580,17 @@
                         "type": "object",
                         "properties": {
                           "scope": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                           },
                           "locale": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                           },
                           "data": {
@@ -10943,11 +11027,17 @@
                         "type": "object",
                         "properties": {
                           "scope": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                           },
                           "locale": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                           },
                           "data": {
@@ -11426,11 +11516,17 @@
                         "type": "object",
                         "properties": {
                           "scope": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                           },
                           "locale": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                           },
                           "data": {
@@ -11831,11 +11927,17 @@
                         "type": "object",
                         "properties": {
                           "scope": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                           },
                           "locale": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                           },
                           "data": {
@@ -12488,11 +12590,17 @@
                         "type": "object",
                         "properties": {
                           "scope": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                           },
                           "locale": {
-                            "type": "string",
+                            "type": [
+                              "string",
+                              "null"
+                            ],
                             "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                           },
                           "data": {
@@ -13065,11 +13173,17 @@
                                         "type": "object",
                                         "properties": {
                                           "scope": {
-                                            "type": "string",
+                                            "type": [
+                                              "string",
+                                              "null"
+                                            ],
                                             "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                                           },
                                           "locale": {
-                                            "type": "string",
+                                            "type": [
+                                              "string",
+                                              "null"
+                                            ],
                                             "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                                           },
                                           "data": {
@@ -13636,11 +13750,17 @@
                       "type": "object",
                       "properties": {
                         "scope": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                         },
                         "locale": {
-                          "type": "string",
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                         },
                         "data": {
@@ -44365,11 +44485,17 @@
               "type": "object",
               "properties": {
                 "scope": {
-                  "type": "string",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
                   "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                 },
                 "locale": {
-                  "type": "string",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
                   "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                 },
                 "data": {
@@ -46267,11 +46393,17 @@
                   "type": "object",
                   "properties": {
                     "scope": {
-                      "type": "string",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
                       "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                     },
                     "locale": {
-                      "type": "string",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
                       "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                     },
                     "data": {
@@ -46702,11 +46834,17 @@
               "type": "object",
               "properties": {
                 "scope": {
-                  "type": "string",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
                   "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                 },
                 "locale": {
-                  "type": "string",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
                   "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                 },
                 "data": {
@@ -47561,11 +47699,17 @@
                   "type": "object",
                   "properties": {
                     "scope": {
-                      "type": "string",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
                       "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                     },
                     "locale": {
-                      "type": "string",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
                       "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                     },
                     "data": {
@@ -47992,11 +48136,17 @@
                 "type": "object",
                 "properties": {
                   "scope": {
-                    "type": "string",
+                    "type": [
+                      "string",
+                      "null"
+                    ],
                     "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                   },
                   "locale": {
-                    "type": "string",
+                    "type": [
+                      "string",
+                      "null"
+                    ],
                     "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                   },
                   "data": {
@@ -48325,11 +48475,17 @@
                     "type": "object",
                     "properties": {
                       "scope": {
-                        "type": "string",
+                        "type": [
+                          "string",
+                          "null"
+                        ],
                         "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                       },
                       "locale": {
-                        "type": "string",
+                        "type": [
+                          "string",
+                          "null"
+                        ],
                         "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                       },
                       "data": {
@@ -48635,11 +48791,17 @@
               "type": "object",
               "properties": {
                 "scope": {
-                  "type": "string",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
                   "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                 },
                 "locale": {
-                  "type": "string",
+                  "type": [
+                    "string",
+                    "null"
+                  ],
                   "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                 },
                 "data": {
@@ -48860,11 +49022,17 @@
                   "type": "object",
                   "properties": {
                     "scope": {
-                      "type": "string",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
                       "description": "<a href='api-reference.html#Channel'>Channel</a> code of the product value"
                     },
                     "locale": {
-                      "type": "string",
+                      "type": [
+                        "string",
+                        "null"
+                      ],
                       "description": "<a href='api-reference.html#Locale'>Locale</a> code of the product value"
                     },
                     "data": {

@@ -709,7 +709,4 @@ setup.cfg
 setup.py
 test-requirements.txt
 test/__init__.py
-test/test_products_all_of_embedded_items_inner_all_of_values_value_inner.py
-test/test_products_all_of_embedded_items_inner_all_of_values_value_inner_linked_data.py
-test/test_published_products_all_of_embedded_items_inner_all_of_values_value_inner.py
 tox.ini

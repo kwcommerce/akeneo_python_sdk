@@ -16,16 +16,16 @@ Name | Type | Description | Notes
 **is_textarea** | **bool** | Whether the UI should display a text area instead of a simple field when the attribute type is &#x60;text&#x60; | [optional] [default to False]
 **is_rich_text_editor** | **bool** | Whether the UI should display a rich text editor instead of a simple text area when the attribute type is &#x60;text&#x60; | [optional] 
 **validation_rule** | **str** | Validation rule type used to validate the attribute value when the attribute type is &#x60;text&#x60; | [optional] [default to 'none']
-**validation_regexp** | **str** | Regexp expression used to validate the attribute value when the attribute type is &#x60;text&#x60; | [optional] [default to 'null']
+**validation_regexp** | **str** | Regexp expression used to validate the attribute value when the attribute type is &#x60;text&#x60; | [optional] 
 **allowed_extensions** | **List[str]** | Extensions allowed when the attribute type is &#x60;media_file&#x60; | [optional] 
-**max_file_size** | **str** | Max file size in MB when the attribute type is &#x60;media_file&#x60; | [optional] [default to 'null']
+**max_file_size** | **str** | Max file size in MB when the attribute type is &#x60;media_file&#x60; | [optional] 
 **decimals_allowed** | **bool** | Whether decimals are allowed when the attribute type is &#x60;number&#x60; | [optional] [default to False]
-**min_value** | **str** | Minimum value allowed when the attribute type is &#x60;number&#x60; | [optional] [default to 'null']
-**max_value** | **str** | Maximum value allowed when the attribute type is &#x60;number&#x60; | [optional] [default to 'null']
+**min_value** | **str** | Minimum value allowed when the attribute type is &#x60;number&#x60; | [optional] 
+**max_value** | **str** | Maximum value allowed when the attribute type is &#x60;number&#x60; | [optional] 
 **media_type** | **str** | For the &#x60;media_link&#x60; attribute type, it is the type of the media behind the url, to allow its preview in the PIM. For the &#x60;media_file&#x60; attribute type, it is the type of the file. | 
-**prefix** | **str** | Prefix of the &#x60;media_link&#x60; attribute type. The common url root that prefixes the link to the media | [optional] [default to 'null']
-**suffix** | **str** | Suffix of the &#x60;media_link&#x60; attribute type. The common url suffix for the media | [optional] [default to 'null']
-**reference_entity** | **str** | Reference entity code for the &#x60;record&#x60; attribute type (see &lt;a href&#x3D;&#39;/api-reference.html#Referenceentity&#39;&gt;Reference entity&lt;/a&gt;). | [optional] [default to 'null']
+**prefix** | **str** | Prefix of the &#x60;media_link&#x60; attribute type. The common url root that prefixes the link to the media | [optional] 
+**suffix** | **str** | Suffix of the &#x60;media_link&#x60; attribute type. The common url suffix for the media | [optional] 
+**reference_entity** | **str** | Reference entity code for the &#x60;record&#x60; attribute type (see &lt;a href&#x3D;&#39;/api-reference.html#Referenceentity&#39;&gt;Reference entity&lt;/a&gt;). | [optional] 
 
 ## Example
 

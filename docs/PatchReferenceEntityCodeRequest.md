@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **code** | **str** | Reference entity code | 
 **labels** | [**ReferenceEntitiesAllOfEmbeddedItemsInnerAllOfLabels**](ReferenceEntitiesAllOfEmbeddedItemsInnerAllOfLabels.md) |  | [optional] 
-**image** | **str** | Code of the reference entity image | [optional] [default to 'null']
+**image** | **str** | Code of the reference entity image | [optional] 
 
 ## Example
 

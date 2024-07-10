@@ -7,10 +7,10 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **code** | **str** | PAM asset code | 
 **categories** | **List[str]** | Codes of the PAM asset categories in which the asset is classified | [optional] 
-**description** | **str** | Description of the PAM asset | [optional] [default to 'null']
+**description** | **str** | Description of the PAM asset | [optional] 
 **localizable** | **bool** | Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale | [optional] [default to False]
 **tags** | **List[str]** | Tags of the PAM asset | [optional] 
-**end_of_use** | **str** | Date on which the PAM asset expire | [optional] [default to 'null']
+**end_of_use** | **str** | Date on which the PAM asset expire | [optional] 
 **variation_files** | [**List[PAMAssetsAllOfEmbeddedItemsInnerAllOfVariationFilesInner]**](PAMAssetsAllOfEmbeddedItemsInnerAllOfVariationFilesInner.md) | Variations of the PAM asset | [optional] 
 **reference_files** | [**List[PAMAssetsAllOfEmbeddedItemsInnerAllOfReferenceFilesInner]**](PAMAssetsAllOfEmbeddedItemsInnerAllOfReferenceFilesInner.md) | Reference files of the PAM asset | [optional] 
 

@@ -31,7 +31,7 @@ class CategoryList(BaseModel):
     """ # noqa: E501
     links: Optional[ProductsAllOfEmbeddedItemsInnerAllOfLinks] = Field(default=None, alias="_links")
     code: StrictStr = Field(description="Category code")
-    parent: Optional[StrictStr] = Field(default='null', description="Category code of the parent's category")
+    parent: Optional[StrictStr] = Field(default=None, description="Category code of the parent's category")
     updated: Optional[StrictStr] = Field(default=None, description="Date of the last update")
     position: Optional[StrictInt] = Field(default=None, description="Position of the category in its level, start from 1 (only available since the 7.0 version and when query parameter \"with_position\" is set to \"true\")")
     labels: Optional[CategoriesAllOfEmbeddedItemsInnerAllOfLabels] = None
@@ -100,7 +100,7 @@ class CategoryList(BaseModel):
         _obj = cls.model_validate({
             "_links": ProductsAllOfEmbeddedItemsInnerAllOfLinks.from_dict(obj["_links"]) if obj.get("_links") is not None else None,
             "code": obj.get("code"),
-            "parent": obj.get("parent") if obj.get("parent") is not None else 'null',
+            "parent": obj.get("parent"),
             "updated": obj.get("updated"),
             "position": obj.get("position"),
             "labels": CategoriesAllOfEmbeddedItemsInnerAllOfLabels.from_dict(obj["labels"]) if obj.get("labels") is not None else None,

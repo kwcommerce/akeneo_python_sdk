@@ -31,7 +31,7 @@ class PublishedProductsAllOfEmbeddedItemsInner(BaseModel):
     links: Optional[ProductsAllOfEmbeddedItemsInnerAllOfLinks] = Field(default=None, alias="_links")
     identifier: StrictStr = Field(description="Published product identifier, i.e. the value of the only `pim_catalog_identifier` attribute")
     enabled: Optional[StrictBool] = Field(default=True, description="Whether the published product is enable")
-    family: Optional[StrictStr] = Field(default='null', description="<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements")
+    family: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements")
     categories: Optional[List[StrictStr]] = Field(default=None, description="Codes of the <a href='api-reference.html#Category'>categories</a> in which the published product is classified")
     groups: Optional[List[StrictStr]] = Field(default=None, description="Codes of the groups to which the published product belong")
     values: Optional[Dict[str, List[Dict[str, Any]]]] = Field(default=None, description="Product attributes values, see <a href='/concepts/products.html#focus-on-the-product-values'>Product values</a> section for more details")
@@ -101,7 +101,7 @@ class PublishedProductsAllOfEmbeddedItemsInner(BaseModel):
             "_links": ProductsAllOfEmbeddedItemsInnerAllOfLinks.from_dict(obj["_links"]) if obj.get("_links") is not None else None,
             "identifier": obj.get("identifier"),
             "enabled": obj.get("enabled") if obj.get("enabled") is not None else True,
-            "family": obj.get("family") if obj.get("family") is not None else 'null',
+            "family": obj.get("family"),
             "categories": obj.get("categories"),
             "groups": obj.get("groups"),
             "values": obj.get("values"),

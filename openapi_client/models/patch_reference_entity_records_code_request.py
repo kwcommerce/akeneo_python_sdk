@@ -29,8 +29,8 @@ class PatchReferenceEntityRecordsCodeRequest(BaseModel):
     """ # noqa: E501
     code: StrictStr = Field(description="Code of the record")
     values: Optional[ReferenceEntityRecordAllOfEmbeddedItemsInnerAllOfValues] = None
-    created: Optional[StrictStr] = Field(default='null', description="Date of creation.")
-    updated: Optional[StrictStr] = Field(default='null', description="Date of the last update.")
+    created: Optional[StrictStr] = Field(default=None, description="Date of creation.")
+    updated: Optional[StrictStr] = Field(default=None, description="Date of the last update.")
     __properties: ClassVar[List[str]] = ["code", "values", "created", "updated"]
 
     model_config = ConfigDict(
@@ -89,8 +89,8 @@ class PatchReferenceEntityRecordsCodeRequest(BaseModel):
         _obj = cls.model_validate({
             "code": obj.get("code"),
             "values": ReferenceEntityRecordAllOfEmbeddedItemsInnerAllOfValues.from_dict(obj["values"]) if obj.get("values") is not None else None,
-            "created": obj.get("created") if obj.get("created") is not None else 'null',
-            "updated": obj.get("updated") if obj.get("updated") is not None else 'null'
+            "created": obj.get("created"),
+            "updated": obj.get("updated")
         })
         return _obj
 

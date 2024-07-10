@@ -28,7 +28,7 @@ class DeprecatedAssetCategory(BaseModel):
     DeprecatedAssetCategory
     """ # noqa: E501
     code: StrictStr = Field(description="PAM asset category code")
-    parent: Optional[StrictStr] = Field(default='null', description="PAM ssset category code of the parent's asset category")
+    parent: Optional[StrictStr] = Field(default=None, description="PAM ssset category code of the parent's asset category")
     labels: Optional[PAMAssetCategoriesAllOfEmbeddedItemsInnerAllOfLabels] = None
     __properties: ClassVar[List[str]] = ["code", "parent", "labels"]
 
@@ -87,7 +87,7 @@ class DeprecatedAssetCategory(BaseModel):
 
         _obj = cls.model_validate({
             "code": obj.get("code"),
-            "parent": obj.get("parent") if obj.get("parent") is not None else 'null',
+            "parent": obj.get("parent"),
             "labels": PAMAssetCategoriesAllOfEmbeddedItemsInnerAllOfLabels.from_dict(obj["labels"]) if obj.get("labels") is not None else None
         })
         return _obj

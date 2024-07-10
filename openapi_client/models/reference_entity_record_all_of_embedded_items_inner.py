@@ -31,8 +31,8 @@ class ReferenceEntityRecordAllOfEmbeddedItemsInner(BaseModel):
     links: Optional[ProductsAllOfEmbeddedItemsInnerAllOfLinks] = Field(default=None, alias="_links")
     code: StrictStr = Field(description="Code of the record")
     values: Optional[ReferenceEntityRecordAllOfEmbeddedItemsInnerAllOfValues] = None
-    created: Optional[StrictStr] = Field(default='null', description="Date of creation.")
-    updated: Optional[StrictStr] = Field(default='null', description="Date of the last update.")
+    created: Optional[StrictStr] = Field(default=None, description="Date of creation.")
+    updated: Optional[StrictStr] = Field(default=None, description="Date of the last update.")
     __properties: ClassVar[List[str]] = ["_links", "code", "values", "created", "updated"]
 
     model_config = ConfigDict(
@@ -95,8 +95,8 @@ class ReferenceEntityRecordAllOfEmbeddedItemsInner(BaseModel):
             "_links": ProductsAllOfEmbeddedItemsInnerAllOfLinks.from_dict(obj["_links"]) if obj.get("_links") is not None else None,
             "code": obj.get("code"),
             "values": ReferenceEntityRecordAllOfEmbeddedItemsInnerAllOfValues.from_dict(obj["values"]) if obj.get("values") is not None else None,
-            "created": obj.get("created") if obj.get("created") is not None else 'null',
-            "updated": obj.get("updated") if obj.get("updated") is not None else 'null'
+            "created": obj.get("created"),
+            "updated": obj.get("updated")
         })
         return _obj
 

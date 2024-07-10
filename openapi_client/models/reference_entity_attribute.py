@@ -37,13 +37,13 @@ class ReferenceEntityAttribute(BaseModel):
     is_textarea: Optional[StrictBool] = Field(default=False, description="Whether the UI should display a text area instead of a simple field when the attribute type is `text`")
     is_rich_text_editor: Optional[StrictBool] = Field(default=None, description="Whether the UI should display a rich text editor instead of a simple text area when the attribute type is `text`")
     validation_rule: Optional[StrictStr] = Field(default='none', description="Validation rule type used to validate the attribute value when the attribute type is `text`")
-    validation_regexp: Optional[StrictStr] = Field(default='null', description="Regexp expression used to validate the attribute value when the attribute type is `text`")
+    validation_regexp: Optional[StrictStr] = Field(default=None, description="Regexp expression used to validate the attribute value when the attribute type is `text`")
     allowed_extensions: Optional[List[StrictStr]] = Field(default=None, description="Extensions allowed when the attribute type is `image`")
-    max_file_size: Optional[StrictStr] = Field(default='null', description="Max file size in MB when the attribute type is `image`")
-    reference_entity_code: Optional[StrictStr] = Field(default='null', description="Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`")
+    max_file_size: Optional[StrictStr] = Field(default=None, description="Max file size in MB when the attribute type is `image`")
+    reference_entity_code: Optional[StrictStr] = Field(default=None, description="Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`")
     decimals_allowed: Optional[StrictBool] = Field(default=False, description="Whether decimals are allowed when the attribute type is `number`")
-    min_value: Optional[StrictStr] = Field(default='null', description="Minimum value allowed when the attribute type is `number`")
-    max_value: Optional[StrictStr] = Field(default='null', description="Maximum value allowed when the attribute type is `number`")
+    min_value: Optional[StrictStr] = Field(default=None, description="Minimum value allowed when the attribute type is `number`")
+    max_value: Optional[StrictStr] = Field(default=None, description="Maximum value allowed when the attribute type is `number`")
     __properties: ClassVar[List[str]] = ["code", "labels", "type", "value_per_locale", "value_per_channel", "is_required_for_completeness", "max_characters", "is_textarea", "is_rich_text_editor", "validation_rule", "validation_regexp", "allowed_extensions", "max_file_size", "reference_entity_code", "decimals_allowed", "min_value", "max_value"]
 
     @field_validator('type')
@@ -127,13 +127,13 @@ class ReferenceEntityAttribute(BaseModel):
             "is_textarea": obj.get("is_textarea") if obj.get("is_textarea") is not None else False,
             "is_rich_text_editor": obj.get("is_rich_text_editor"),
             "validation_rule": obj.get("validation_rule") if obj.get("validation_rule") is not None else 'none',
-            "validation_regexp": obj.get("validation_regexp") if obj.get("validation_regexp") is not None else 'null',
+            "validation_regexp": obj.get("validation_regexp"),
             "allowed_extensions": obj.get("allowed_extensions"),
-            "max_file_size": obj.get("max_file_size") if obj.get("max_file_size") is not None else 'null',
-            "reference_entity_code": obj.get("reference_entity_code") if obj.get("reference_entity_code") is not None else 'null',
+            "max_file_size": obj.get("max_file_size"),
+            "reference_entity_code": obj.get("reference_entity_code"),
             "decimals_allowed": obj.get("decimals_allowed") if obj.get("decimals_allowed") is not None else False,
-            "min_value": obj.get("min_value") if obj.get("min_value") is not None else 'null',
-            "max_value": obj.get("max_value") if obj.get("max_value") is not None else 'null'
+            "min_value": obj.get("min_value"),
+            "max_value": obj.get("max_value")
         })
         return _obj
 

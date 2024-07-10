@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **links** | [**ProductsAllOfEmbeddedItemsInnerAllOfLinks**](ProductsAllOfEmbeddedItemsInnerAllOfLinks.md) |  | [optional] 
 **code** | **str** | PAM asset category code | 
-**parent** | **str** | PAM ssset category code of the parent&#39;s asset category | [optional] [default to 'null']
+**parent** | **str** | PAM ssset category code of the parent&#39;s asset category | [optional] 
 **labels** | [**PAMAssetCategoriesAllOfEmbeddedItemsInnerAllOfLabels**](PAMAssetCategoriesAllOfEmbeddedItemsInnerAllOfLabels.md) |  | [optional] 
 
 ## Example

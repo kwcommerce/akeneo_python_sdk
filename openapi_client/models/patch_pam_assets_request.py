@@ -30,10 +30,10 @@ class PatchPamAssetsRequest(BaseModel):
     """ # noqa: E501
     code: StrictStr = Field(description="PAM asset code")
     categories: Optional[List[StrictStr]] = Field(default=None, description="Codes of the PAM asset categories in which the asset is classified")
-    description: Optional[StrictStr] = Field(default='null', description="Description of the PAM asset")
+    description: Optional[StrictStr] = Field(default=None, description="Description of the PAM asset")
     localizable: Optional[StrictBool] = Field(default=False, description="Whether the asset is localized or not, meaning if you want to have different reference files for each of your locale")
     tags: Optional[List[StrictStr]] = Field(default=None, description="Tags of the PAM asset")
-    end_of_use: Optional[StrictStr] = Field(default='null', description="Date on which the PAM asset expire")
+    end_of_use: Optional[StrictStr] = Field(default=None, description="Date on which the PAM asset expire")
     variation_files: Optional[List[PAMAssetsAllOfEmbeddedItemsInnerAllOfVariationFilesInner]] = Field(default=None, description="Variations of the PAM asset")
     reference_files: Optional[List[PAMAssetsAllOfEmbeddedItemsInnerAllOfReferenceFilesInner]] = Field(default=None, description="Reference files of the PAM asset")
     __properties: ClassVar[List[str]] = ["code", "categories", "description", "localizable", "tags", "end_of_use", "variation_files", "reference_files"]
@@ -105,10 +105,10 @@ class PatchPamAssetsRequest(BaseModel):
         _obj = cls.model_validate({
             "code": obj.get("code"),
             "categories": obj.get("categories"),
-            "description": obj.get("description") if obj.get("description") is not None else 'null',
+            "description": obj.get("description"),
             "localizable": obj.get("localizable") if obj.get("localizable") is not None else False,
             "tags": obj.get("tags"),
-            "end_of_use": obj.get("end_of_use") if obj.get("end_of_use") is not None else 'null',
+            "end_of_use": obj.get("end_of_use"),
             "variation_files": [PAMAssetsAllOfEmbeddedItemsInnerAllOfVariationFilesInner.from_dict(_item) for _item in obj["variation_files"]] if obj.get("variation_files") is not None else None,
             "reference_files": [PAMAssetsAllOfEmbeddedItemsInnerAllOfReferenceFilesInner.from_dict(_item) for _item in obj["reference_files"]] if obj.get("reference_files") is not None else None
         })

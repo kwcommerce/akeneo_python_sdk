@@ -238,8 +238,7 @@
                                   "family": {
                                     "type": "string",
                                     "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                                    "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                                    "default": null
+                                    "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                                   },
                                   "categories": {
                                     "type": "array",
@@ -263,7 +262,6 @@
                                     "type": "string",
                                     "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                                    "default": null,
                                     "x-from-version": "2.0"
                                   },
                                   "values": {
@@ -1150,8 +1148,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -1175,7 +1172,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -1685,8 +1681,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -1710,7 +1705,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -2279,8 +2273,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -2304,7 +2297,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -2775,8 +2767,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -2800,7 +2791,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -3517,8 +3507,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -3542,7 +3531,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -4216,8 +4204,7 @@
                                   "family": {
                                     "type": "string",
                                     "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                                    "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                                    "default": null
+                                    "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                                   },
                                   "categories": {
                                     "type": "array",
@@ -4241,7 +4228,6 @@
                                     "type": "string",
                                     "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                                    "default": null,
                                     "x-from-version": "2.0"
                                   },
                                   "values": {
@@ -6189,8 +6175,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -6214,7 +6199,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -6738,8 +6722,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -6763,7 +6746,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -7327,8 +7309,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -7352,7 +7333,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -7840,8 +7820,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -7865,7 +7844,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -8609,8 +8587,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
                 },
                 "categories": {
                   "type": "array",
@@ -8634,7 +8611,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -9306,7 +9282,6 @@
                                     "type": "string",
                                     "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                                     "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                                    "default": null,
                                     "x-from-version": "2.3"
                                   },
                                   "categories": {
@@ -9951,7 +9926,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -10392,7 +10366,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -10875,7 +10848,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -11280,7 +11252,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -11937,7 +11908,6 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -12506,8 +12476,7 @@
                                   "family": {
                                     "type": "string",
                                     "description": "<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements",
-                                    "x-validation-rules": "It is equal to an existing family code",
-                                    "default": null
+                                    "x-validation-rules": "It is equal to an existing family code"
                                   },
                                   "categories": {
                                     "type": "array",
@@ -13063,8 +13032,7 @@
                 "family": {
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements",
-                  "x-validation-rules": "It is equal to an existing family code",
-                  "default": null
+                  "x-validation-rules": "It is equal to an existing family code"
                 },
                 "categories": {
                   "type": "array",
@@ -14281,7 +14249,6 @@
                                     "type": "string",
                                     "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                                     "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                                    "default": null,
                                     "x-from-version": "2.0"
                                   },
                                   "attributes": {
@@ -14567,7 +14534,6 @@
                   "type": "string",
                   "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                   "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "attributes": {
@@ -14812,7 +14778,6 @@
                   "type": "string",
                   "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                   "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "attributes": {
@@ -15061,7 +15026,6 @@
                   "type": "string",
                   "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                   "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "attributes": {
@@ -15270,7 +15234,6 @@
                   "type": "string",
                   "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                   "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "attributes": {
@@ -24630,8 +24593,7 @@
                                   "parent": {
                                     "type": "string",
                                     "description": "Category code of the parent's category",
-                                    "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                                    "default": null
+                                    "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself."
                                   },
                                   "updated": {
                                     "type": "string",
@@ -24659,7 +24621,6 @@
                                   "values": {
                                     "type": "object",
                                     "description": "Attribute values",
-                                    "default": null,
                                     "properties": {
                                       "attributeCode|attributeUuid|channelCode|localeCode": {
                                         "type": "array",
@@ -24962,8 +24923,7 @@
                 "parent": {
                   "type": "string",
                   "description": "Category code of the parent's category",
-                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                  "default": null
+                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself."
                 },
                 "updated": {
                   "type": "string",
@@ -25210,8 +25170,7 @@
                 "parent": {
                   "type": "string",
                   "description": "Category code of the parent's category",
-                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                  "default": null
+                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself."
                 },
                 "updated": {
                   "type": "string",
@@ -25478,8 +25437,7 @@
                 "parent": {
                   "type": "string",
                   "description": "Category code of the parent's category",
-                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                  "default": null
+                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself."
                 },
                 "updated": {
                   "type": "string",
@@ -25507,7 +25465,6 @@
                 "values": {
                   "type": "object",
                   "description": "Attribute values",
-                  "default": null,
                   "properties": {
                     "attributeCode|attributeUuid|channelCode|localeCode": {
                       "type": "array",
@@ -25703,8 +25660,7 @@
                 "parent": {
                   "type": "string",
                   "description": "Category code of the parent's category",
-                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                  "default": null
+                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself."
                 },
                 "updated": {
                   "type": "string",
@@ -27850,8 +27806,7 @@
                                   },
                                   "image": {
                                     "type": "string",
-                                    "description": "Code of the reference entity image",
-                                    "default": null
+                                    "description": "Code of the reference entity image"
                                   }
                                 },
                                 "example": {
@@ -28055,8 +28010,7 @@
                     },
                     "image": {
                       "type": "string",
-                      "description": "Code of the reference entity image",
-                      "default": null
+                      "description": "Code of the reference entity image"
                     }
                   },
                   "example": {
@@ -28202,8 +28156,7 @@
                 },
                 "image": {
                   "type": "string",
-                  "description": "Code of the reference entity image",
-                  "default": null
+                  "description": "Code of the reference entity image"
                 }
               },
               "example": {
@@ -28428,7 +28381,6 @@
                   "validation_regexp": {
                     "type": "string",
                     "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                    "default": null,
                     "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                     "x-warning": "Only for `text` attribute type"
                   },
@@ -28444,13 +28396,11 @@
                   "max_file_size": {
                     "type": "string",
                     "description": "Max file size in MB when the attribute type is `image`",
-                    "default": null,
                     "x-warning": "Only for `image` attribute type"
                   },
                   "reference_entity_code": {
                     "type": "string",
                     "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-                    "default": null,
                     "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
                     "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
                     "x-immutable": true
@@ -28464,14 +28414,12 @@
                   "min_value": {
                     "type": "string",
                     "description": "Minimum value allowed when the attribute type is `number`",
-                    "default": null,
                     "x-validation-rules": "The minimum value must be lower than the maximum value",
                     "x-warning": "Only for `number` attribute type"
                   },
                   "max_value": {
                     "type": "string",
                     "description": "Maximum value allowed when the attribute type is `number`",
-                    "default": null,
                     "x-validation-rules": "The maximum value must be greater than the minimum value",
                     "x-warning": "Only for `number` attribute type"
                   }
@@ -28722,7 +28670,6 @@
                 "validation_regexp": {
                   "type": "string",
                   "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                  "default": null,
                   "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                   "x-warning": "Only for `text` attribute type"
                 },
@@ -28738,13 +28685,11 @@
                 "max_file_size": {
                   "type": "string",
                   "description": "Max file size in MB when the attribute type is `image`",
-                  "default": null,
                   "x-warning": "Only for `image` attribute type"
                 },
                 "reference_entity_code": {
                   "type": "string",
                   "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-                  "default": null,
                   "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
                   "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
                   "x-immutable": true
@@ -28758,14 +28703,12 @@
                 "min_value": {
                   "type": "string",
                   "description": "Minimum value allowed when the attribute type is `number`",
-                  "default": null,
                   "x-validation-rules": "The minimum value must be lower than the maximum value",
                   "x-warning": "Only for `number` attribute type"
                 },
                 "max_value": {
                   "type": "string",
                   "description": "Maximum value allowed when the attribute type is `number`",
-                  "default": null,
                   "x-validation-rules": "The maximum value must be greater than the minimum value",
                   "x-warning": "Only for `number` attribute type"
                 }
@@ -28975,7 +28918,6 @@
                 "validation_regexp": {
                   "type": "string",
                   "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                  "default": null,
                   "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                   "x-warning": "Only for `text` attribute type"
                 },
@@ -28991,13 +28933,11 @@
                 "max_file_size": {
                   "type": "string",
                   "description": "Max file size in MB when the attribute type is `image`",
-                  "default": null,
                   "x-warning": "Only for `image` attribute type"
                 },
                 "reference_entity_code": {
                   "type": "string",
                   "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-                  "default": null,
                   "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
                   "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
                   "x-immutable": true
@@ -29011,14 +28951,12 @@
                 "min_value": {
                   "type": "string",
                   "description": "Minimum value allowed when the attribute type is `number`",
-                  "default": null,
                   "x-validation-rules": "The minimum value must be lower than the maximum value",
                   "x-warning": "Only for `number` attribute type"
                 },
                 "max_value": {
                   "type": "string",
                   "description": "Maximum value allowed when the attribute type is `number`",
-                  "default": null,
                   "x-validation-rules": "The maximum value must be greater than the minimum value",
                   "x-warning": "Only for `number` attribute type"
                 }
@@ -29755,7 +29693,6 @@
                                     "type": "string",
                                     "description": "Date of creation.",
                                     "format": "dateTime",
-                                    "default": null,
                                     "x-immutable": true,
                                     "x-read-only": true,
                                     "x-from-version": "5.0"
@@ -29764,7 +29701,6 @@
                                     "type": "string",
                                     "description": "Date of the last update.",
                                     "format": "dateTime",
-                                    "default": null,
                                     "x-read-only": true,
                                     "x-from-version": "5.0"
                                   }
@@ -30102,7 +30038,6 @@
                     "type": "string",
                     "description": "Date of creation.",
                     "format": "dateTime",
-                    "default": null,
                     "x-immutable": true,
                     "x-read-only": true,
                     "x-from-version": "5.0"
@@ -30111,7 +30046,6 @@
                     "type": "string",
                     "description": "Date of the last update.",
                     "format": "dateTime",
-                    "default": null,
                     "x-read-only": true,
                     "x-from-version": "5.0"
                   }
@@ -30504,7 +30438,6 @@
                   "type": "string",
                   "description": "Date of creation.",
                   "format": "dateTime",
-                  "default": null,
                   "x-immutable": true,
                   "x-read-only": true,
                   "x-from-version": "5.0"
@@ -30513,7 +30446,6 @@
                   "type": "string",
                   "description": "Date of the last update.",
                   "format": "dateTime",
-                  "default": null,
                   "x-read-only": true,
                   "x-from-version": "5.0"
                 }
@@ -30768,7 +30700,6 @@
                   "type": "string",
                   "description": "Date of creation.",
                   "format": "dateTime",
-                  "default": null,
                   "x-immutable": true,
                   "x-read-only": true,
                   "x-from-version": "5.0"
@@ -30777,7 +30708,6 @@
                   "type": "string",
                   "description": "Date of the last update.",
                   "format": "dateTime",
-                  "default": null,
                   "x-read-only": true,
                   "x-from-version": "5.0"
                 }
@@ -32602,7 +32532,6 @@
                   "validation_regexp": {
                     "type": "string",
                     "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                    "default": null,
                     "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                     "x-warning": "Only for `text` attribute type"
                   },
@@ -32618,7 +32547,6 @@
                   "max_file_size": {
                     "type": "string",
                     "description": "Max file size in MB when the attribute type is `media_file`",
-                    "default": null,
                     "x-warning": "Only for `media_file` attribute type"
                   },
                   "decimals_allowed": {
@@ -32630,14 +32558,12 @@
                   "min_value": {
                     "type": "string",
                     "description": "Minimum value allowed when the attribute type is `number`",
-                    "default": null,
                     "x-validation-rules": "The minimum value must be lower than the maximum value",
                     "x-warning": "Only for `number` attribute type"
                   },
                   "max_value": {
                     "type": "string",
                     "description": "Maximum value allowed when the attribute type is `number`",
-                    "default": null,
                     "x-validation-rules": "The maximum value must be greater than the minimum value",
                     "x-warning": "Only for `number` attribute type"
                   },
@@ -32656,19 +32582,16 @@
                   "prefix": {
                     "type": "string",
                     "description": "Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media",
-                    "default": null,
                     "x-warning": "Only for `media_link` attribute type"
                   },
                   "suffix": {
                     "type": "string",
                     "description": "Suffix of the `media_link` attribute type. The common url suffix for the media",
-                    "default": null,
                     "x-warning": "Only for `media_link` attribute type"
                   },
                   "reference_entity": {
                     "type": "string",
                     "description": "Reference entity code for the `record` attribute type (see <a href='/api-reference.html#Referenceentity'>Reference entity</a>).",
-                    "default": null,
                     "x-warning": "Only for `record` attribute type",
                     "x-from-version": "SaaS"
                   }
@@ -32907,7 +32830,6 @@
                 "validation_regexp": {
                   "type": "string",
                   "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                  "default": null,
                   "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                   "x-warning": "Only for `text` attribute type"
                 },
@@ -32923,7 +32845,6 @@
                 "max_file_size": {
                   "type": "string",
                   "description": "Max file size in MB when the attribute type is `media_file`",
-                  "default": null,
                   "x-warning": "Only for `media_file` attribute type"
                 },
                 "decimals_allowed": {
@@ -32935,14 +32856,12 @@
                 "min_value": {
                   "type": "string",
                   "description": "Minimum value allowed when the attribute type is `number`",
-                  "default": null,
                   "x-validation-rules": "The minimum value must be lower than the maximum value",
                   "x-warning": "Only for `number` attribute type"
                 },
                 "max_value": {
                   "type": "string",
                   "description": "Maximum value allowed when the attribute type is `number`",
-                  "default": null,
                   "x-validation-rules": "The maximum value must be greater than the minimum value",
                   "x-warning": "Only for `number` attribute type"
                 },
@@ -32961,19 +32880,16 @@
                 "prefix": {
                   "type": "string",
                   "description": "Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media",
-                  "default": null,
                   "x-warning": "Only for `media_link` attribute type"
                 },
                 "suffix": {
                   "type": "string",
                   "description": "Suffix of the `media_link` attribute type. The common url suffix for the media",
-                  "default": null,
                   "x-warning": "Only for `media_link` attribute type"
                 },
                 "reference_entity": {
                   "type": "string",
                   "description": "Reference entity code for the `record` attribute type (see <a href='/api-reference.html#Referenceentity'>Reference entity</a>).",
-                  "default": null,
                   "x-warning": "Only for `record` attribute type",
                   "x-from-version": "SaaS"
                 }
@@ -33186,7 +33102,6 @@
                 "validation_regexp": {
                   "type": "string",
                   "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-                  "default": null,
                   "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
                   "x-warning": "Only for `text` attribute type"
                 },
@@ -33202,7 +33117,6 @@
                 "max_file_size": {
                   "type": "string",
                   "description": "Max file size in MB when the attribute type is `media_file`",
-                  "default": null,
                   "x-warning": "Only for `media_file` attribute type"
                 },
                 "decimals_allowed": {
@@ -33214,14 +33128,12 @@
                 "min_value": {
                   "type": "string",
                   "description": "Minimum value allowed when the attribute type is `number`",
-                  "default": null,
                   "x-validation-rules": "The minimum value must be lower than the maximum value",
                   "x-warning": "Only for `number` attribute type"
                 },
                 "max_value": {
                   "type": "string",
                   "description": "Maximum value allowed when the attribute type is `number`",
-                  "default": null,
                   "x-validation-rules": "The maximum value must be greater than the minimum value",
                   "x-warning": "Only for `number` attribute type"
                 },
@@ -33240,19 +33152,16 @@
                 "prefix": {
                   "type": "string",
                   "description": "Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media",
-                  "default": null,
                   "x-warning": "Only for `media_link` attribute type"
                 },
                 "suffix": {
                   "type": "string",
                   "description": "Suffix of the `media_link` attribute type. The common url suffix for the media",
-                  "default": null,
                   "x-warning": "Only for `media_link` attribute type"
                 },
                 "reference_entity": {
                   "type": "string",
                   "description": "Reference entity code for the `record` attribute type (see <a href='/api-reference.html#Referenceentity'>Reference entity</a>).",
-                  "default": null,
                   "x-warning": "Only for `record` attribute type",
                   "x-from-version": "SaaS"
                 }
@@ -35638,8 +35547,7 @@
                                   },
                                   "description": {
                                     "type": "string",
-                                    "description": "Description of the PAM asset",
-                                    "default": null
+                                    "description": "Description of the PAM asset"
                                   },
                                   "localizable": {
                                     "type": "boolean",
@@ -35659,7 +35567,6 @@
                                     "type": "string",
                                     "description": "Date on which the PAM asset expire",
                                     "format": "dateTime",
-                                    "default": null,
                                     "x-validation-rules": "The date follows the ISO 8601 format"
                                   },
                                   "variation_files": {
@@ -36113,8 +36020,7 @@
                 },
                 "description": {
                   "type": "string",
-                  "description": "Description of the PAM asset",
-                  "default": null
+                  "description": "Description of the PAM asset"
                 },
                 "localizable": {
                   "type": "boolean",
@@ -36134,7 +36040,6 @@
                   "type": "string",
                   "description": "Date on which the PAM asset expire",
                   "format": "dateTime",
-                  "default": null,
                   "x-validation-rules": "The date follows the ISO 8601 format"
                 },
                 "variation_files": {
@@ -36455,8 +36360,7 @@
                 },
                 "description": {
                   "type": "string",
-                  "description": "Description of the PAM asset",
-                  "default": null
+                  "description": "Description of the PAM asset"
                 },
                 "localizable": {
                   "type": "boolean",
@@ -36476,7 +36380,6 @@
                   "type": "string",
                   "description": "Date on which the PAM asset expire",
                   "format": "dateTime",
-                  "default": null,
                   "x-validation-rules": "The date follows the ISO 8601 format"
                 },
                 "variation_files": {
@@ -36801,8 +36704,7 @@
                 },
                 "description": {
                   "type": "string",
-                  "description": "Description of the PAM asset",
-                  "default": null
+                  "description": "Description of the PAM asset"
                 },
                 "localizable": {
                   "type": "boolean",
@@ -36822,7 +36724,6 @@
                   "type": "string",
                   "description": "Date on which the PAM asset expire",
                   "format": "dateTime",
-                  "default": null,
                   "x-validation-rules": "The date follows the ISO 8601 format"
                 },
                 "variation_files": {
@@ -37107,8 +37008,7 @@
                 },
                 "description": {
                   "type": "string",
-                  "description": "Description of the PAM asset",
-                  "default": null
+                  "description": "Description of the PAM asset"
                 },
                 "localizable": {
                   "type": "boolean",
@@ -37128,7 +37028,6 @@
                   "type": "string",
                   "description": "Date on which the PAM asset expire",
                   "format": "dateTime",
-                  "default": null,
                   "x-validation-rules": "The date follows the ISO 8601 format"
                 },
                 "variation_files": {
@@ -38545,8 +38444,7 @@
                                   "parent": {
                                     "type": "string",
                                     "description": "PAM ssset category code of the parent's asset category",
-                                    "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                                    "default": null
+                                    "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself."
                                   },
                                   "labels": {
                                     "type": "object",
@@ -38741,8 +38639,7 @@
                 "parent": {
                   "type": "string",
                   "description": "PAM ssset category code of the parent's asset category",
-                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                  "default": null
+                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself."
                 },
                 "labels": {
                   "type": "object",
@@ -38930,8 +38827,7 @@
                 "parent": {
                   "type": "string",
                   "description": "PAM ssset category code of the parent's asset category",
-                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                  "default": null
+                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself."
                 },
                 "labels": {
                   "type": "object",
@@ -39123,8 +39019,7 @@
                 "parent": {
                   "type": "string",
                   "description": "PAM ssset category code of the parent's asset category",
-                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                  "default": null
+                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself."
                 },
                 "labels": {
                   "type": "object",
@@ -39276,8 +39171,7 @@
                 "parent": {
                   "type": "string",
                   "description": "PAM ssset category code of the parent's asset category",
-                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                  "default": null
+                  "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself."
                 },
                 "labels": {
                   "type": "object",
@@ -43771,8 +43665,7 @@
         "family": {
           "type": "string",
           "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-          "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-          "default": null
+          "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
         },
         "categories": {
           "type": "array",
@@ -43796,7 +43689,6 @@
           "type": "string",
           "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
           "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-          "default": null,
           "x-from-version": "2.0"
         },
         "values": {
@@ -45629,8 +45521,7 @@
             "family": {
               "type": "string",
               "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-              "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-              "default": null
+              "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
             },
             "categories": {
               "type": "array",
@@ -45654,7 +45545,6 @@
               "type": "string",
               "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
               "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-              "default": null,
               "x-from-version": "2.0"
             },
             "values": {
@@ -46020,8 +45910,7 @@
         "family": {
           "type": "string",
           "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-          "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-          "default": null
+          "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
         },
         "categories": {
           "type": "array",
@@ -46045,7 +45934,6 @@
           "type": "string",
           "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
           "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-          "default": null,
           "x-from-version": "2.0"
         },
         "values": {
@@ -46835,8 +46723,7 @@
             "family": {
               "type": "string",
               "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
-              "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-              "default": null
+              "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family."
             },
             "categories": {
               "type": "array",
@@ -46860,7 +46747,6 @@
               "type": "string",
               "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
               "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-              "default": null,
               "x-from-version": "2.0"
             },
             "values": {
@@ -47237,7 +47123,6 @@
           "type": "string",
           "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
           "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-          "default": null,
           "x-from-version": "2.3"
         },
         "categories": {
@@ -47570,7 +47455,6 @@
               "type": "string",
               "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
               "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-              "default": null,
               "x-from-version": "2.3"
             },
             "categories": {
@@ -47872,8 +47756,7 @@
         "family": {
           "type": "string",
           "description": "<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements",
-          "x-validation-rules": "It is equal to an existing family code",
-          "default": null
+          "x-validation-rules": "It is equal to an existing family code"
         },
         "categories": {
           "type": "array",
@@ -48083,8 +47966,7 @@
             "family": {
               "type": "string",
               "description": "<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements",
-              "x-validation-rules": "It is equal to an existing family code",
-              "default": null
+              "x-validation-rules": "It is equal to an existing family code"
             },
             "categories": {
               "type": "array",
@@ -48304,8 +48186,7 @@
             },
             "image": {
               "type": "string",
-              "description": "Code of the reference entity image",
-              "default": null
+              "description": "Code of the reference entity image"
             }
           },
           "example": {
@@ -48388,8 +48269,7 @@
             },
             "image": {
               "type": "string",
-              "description": "Code of the reference entity image",
-              "default": null
+              "description": "Code of the reference entity image"
             }
           },
           "example": {
@@ -48490,7 +48370,6 @@
         "validation_regexp": {
           "type": "string",
           "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-          "default": null,
           "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
           "x-warning": "Only for `text` attribute type"
         },
@@ -48506,13 +48385,11 @@
         "max_file_size": {
           "type": "string",
           "description": "Max file size in MB when the attribute type is `image`",
-          "default": null,
           "x-warning": "Only for `image` attribute type"
         },
         "reference_entity_code": {
           "type": "string",
           "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-          "default": null,
           "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
           "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
           "x-immutable": true
@@ -48526,14 +48403,12 @@
         "min_value": {
           "type": "string",
           "description": "Minimum value allowed when the attribute type is `number`",
-          "default": null,
           "x-validation-rules": "The minimum value must be lower than the maximum value",
           "x-warning": "Only for `number` attribute type"
         },
         "max_value": {
           "type": "string",
           "description": "Maximum value allowed when the attribute type is `number`",
-          "default": null,
           "x-validation-rules": "The maximum value must be greater than the minimum value",
           "x-warning": "Only for `number` attribute type"
         }
@@ -48644,7 +48519,6 @@
           "validation_regexp": {
             "type": "string",
             "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-            "default": null,
             "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
             "x-warning": "Only for `text` attribute type"
           },
@@ -48660,13 +48534,11 @@
           "max_file_size": {
             "type": "string",
             "description": "Max file size in MB when the attribute type is `image`",
-            "default": null,
             "x-warning": "Only for `image` attribute type"
           },
           "reference_entity_code": {
             "type": "string",
             "description": "Code of the linked reference entity when the attribute type is `reference_entity_single_link` or `reference_entity_multiple_links`",
-            "default": null,
             "x-validation-rules": "Required when the attribute type is either `reference_entity_single_link` or `reference_entity_multiple_links`",
             "x-warning": "Only for `reference_entity_single_link` and `reference_entity_multiple_links` attribute type",
             "x-immutable": true
@@ -48680,14 +48552,12 @@
           "min_value": {
             "type": "string",
             "description": "Minimum value allowed when the attribute type is `number`",
-            "default": null,
             "x-validation-rules": "The minimum value must be lower than the maximum value",
             "x-warning": "Only for `number` attribute type"
           },
           "max_value": {
             "type": "string",
             "description": "Maximum value allowed when the attribute type is `number`",
-            "default": null,
             "x-validation-rules": "The maximum value must be greater than the minimum value",
             "x-warning": "Only for `number` attribute type"
           }
@@ -48819,7 +48689,6 @@
           "type": "string",
           "description": "Date of creation.",
           "format": "dateTime",
-          "default": null,
           "x-immutable": true,
           "x-read-only": true,
           "x-from-version": "5.0"
@@ -48828,7 +48697,6 @@
           "type": "string",
           "description": "Date of the last update.",
           "format": "dateTime",
-          "default": null,
           "x-read-only": true,
           "x-from-version": "5.0"
         }
@@ -48952,7 +48820,6 @@
               "type": "string",
               "description": "Date of creation.",
               "format": "dateTime",
-              "default": null,
               "x-immutable": true,
               "x-read-only": true,
               "x-from-version": "5.0"
@@ -48961,7 +48828,6 @@
               "type": "string",
               "description": "Date of the last update.",
               "format": "dateTime",
-              "default": null,
               "x-read-only": true,
               "x-from-version": "5.0"
             }
@@ -49037,8 +48903,7 @@
         "parent": {
           "type": "string",
           "description": "Category code of the parent's category",
-          "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-          "default": null
+          "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself."
         },
         "updated": {
           "type": "string",
@@ -49066,7 +48931,6 @@
         "values": {
           "type": "object",
           "description": "Attribute values",
-          "default": null,
           "properties": {
             "attributeCode|attributeUuid|channelCode|localeCode": {
               "type": "array",
@@ -49146,8 +49010,7 @@
         "parent": {
           "type": "string",
           "description": "Category code of the parent's category",
-          "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-          "default": null
+          "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself."
         },
         "updated": {
           "type": "string",
@@ -49264,8 +49127,7 @@
             "parent": {
               "type": "string",
               "description": "Category code of the parent's category",
-              "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-              "default": null
+              "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself."
             },
             "updated": {
               "type": "string",
@@ -49293,7 +49155,6 @@
             "values": {
               "type": "object",
               "description": "Attribute values",
-              "default": null,
               "properties": {
                 "attributeCode|attributeUuid|channelCode|localeCode": {
                   "type": "array",
@@ -49814,7 +49675,6 @@
           "type": "string",
           "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
           "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-          "default": null,
           "x-from-version": "2.0"
         },
         "attributes": {
@@ -49929,7 +49789,6 @@
               "type": "string",
               "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
               "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-              "default": null,
               "x-from-version": "2.0"
             },
             "attributes": {
@@ -52128,7 +51987,6 @@
           "validation_regexp": {
             "type": "string",
             "description": "Regexp expression used to validate the attribute value when the attribute type is `text`",
-            "default": null,
             "x-validation-rules": "Required when the property `validation_rule` is equal to `regexp`",
             "x-warning": "Only for `text` attribute type"
           },
@@ -52144,7 +52002,6 @@
           "max_file_size": {
             "type": "string",
             "description": "Max file size in MB when the attribute type is `media_file`",
-            "default": null,
             "x-warning": "Only for `media_file` attribute type"
           },
           "decimals_allowed": {
@@ -52156,14 +52013,12 @@
           "min_value": {
             "type": "string",
             "description": "Minimum value allowed when the attribute type is `number`",
-            "default": null,
             "x-validation-rules": "The minimum value must be lower than the maximum value",
             "x-warning": "Only for `number` attribute type"
           },
           "max_value": {
             "type": "string",
             "description": "Maximum value allowed when the attribute type is `number`",
-            "default": null,
             "x-validation-rules": "The maximum value must be greater than the minimum value",
             "x-warning": "Only for `number` attribute type"
           },
@@ -52182,19 +52037,16 @@
           "prefix": {
             "type": "string",
             "description": "Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media",
-            "default": null,
             "x-warning": "Only for `media_link` attribute type"
           },
           "suffix": {
             "type": "string",
             "description": "Suffix of the `media_link` attribute type. The common url suffix for the media",
-            "default": null,
             "x-warning": "Only for `media_link` attribute type"
           },
           "reference_entity": {
             "type": "string",
             "description": "Reference entity code for the `record` attribute type (see <a href='/api-reference.html#Referenceentity'>Reference entity</a>).",
-            "default": null,
             "x-warning": "Only for `record` attribute type",
             "x-from-version": "SaaS"
           }
@@ -52758,8 +52610,7 @@
         },
         "description": {
           "type": "string",
-          "description": "Description of the PAM asset",
-          "default": null
+          "description": "Description of the PAM asset"
         },
         "localizable": {
           "type": "boolean",
@@ -52779,7 +52630,6 @@
           "type": "string",
           "description": "Date on which the PAM asset expire",
           "format": "dateTime",
-          "default": null,
           "x-validation-rules": "The date follows the ISO 8601 format"
         },
         "variation_files": {
@@ -52972,8 +52822,7 @@
             },
             "description": {
               "type": "string",
-              "description": "Description of the PAM asset",
-              "default": null
+              "description": "Description of the PAM asset"
             },
             "localizable": {
               "type": "boolean",
@@ -52993,7 +52842,6 @@
               "type": "string",
               "description": "Date on which the PAM asset expire",
               "format": "dateTime",
-              "default": null,
               "x-validation-rules": "The date follows the ISO 8601 format"
             },
             "variation_files": {
@@ -53239,8 +53087,7 @@
         "parent": {
           "type": "string",
           "description": "PAM ssset category code of the parent's asset category",
-          "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-          "default": null
+          "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself."
         },
         "labels": {
           "type": "object",
@@ -53300,8 +53147,7 @@
             "parent": {
               "type": "string",
               "description": "PAM ssset category code of the parent's asset category",
-              "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-              "default": null
+              "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself."
             },
             "labels": {
               "type": "object",

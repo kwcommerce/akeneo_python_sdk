@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 **code** | **str** | Product model code | 
 **family** | **str** | &lt;a href&#x3D;&#39;api-reference.html#Family&#39;&gt;Family&lt;/a&gt; code  from which the product inherits its attributes and attributes requirements (since the 3.2) | [optional] 
 **family_variant** | **str** | Family variant code from which the product model inherits its attributes and variant attributes | 
-**parent** | **str** | Code of the parent &lt;a href&#x3D;&#39;api-reference.html#Productmodel&#39;&gt;product model&lt;/a&gt;. This parent can be modified since the 2.3. | [optional] [default to 'null']
+**parent** | **str** | Code of the parent &lt;a href&#x3D;&#39;api-reference.html#Productmodel&#39;&gt;product model&lt;/a&gt;. This parent can be modified since the 2.3. | [optional] 
 **categories** | **List[str]** | Codes of the &lt;a href&#x3D;&#39;api-reference.html#Category&#39;&gt;categories&lt;/a&gt; in which the product model is categorized | [optional] 
 **values** | [**ProductModelsAllOfEmbeddedItemsInnerAllOfValues**](ProductModelsAllOfEmbeddedItemsInnerAllOfValues.md) |  | [optional] 
 **associations** | [**ProductModelsAllOfEmbeddedItemsInnerAllOfAssociations**](ProductModelsAllOfEmbeddedItemsInnerAllOfAssociations.md) |  | [optional] 

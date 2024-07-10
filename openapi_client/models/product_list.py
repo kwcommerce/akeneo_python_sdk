@@ -35,10 +35,10 @@ class ProductList(BaseModel):
     uuid: Optional[StrictStr] = Field(default=None, description="Product UUID")
     identifier: StrictStr = Field(description="Product identifier, i.e. the value of the only `pim_catalog_identifier` attribute")
     enabled: Optional[StrictBool] = Field(default=True, description="Whether the product is enabled")
-    family: Optional[StrictStr] = Field(default='null', description="<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.")
+    family: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.")
     categories: Optional[List[StrictStr]] = Field(default=None, description="Codes of the <a href='api-reference.html#Category'>categories</a> in which the product is classified")
     groups: Optional[List[StrictStr]] = Field(default=None, description="Codes of the groups to which the product belong")
-    parent: Optional[StrictStr] = Field(default='null', description="Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.")
+    parent: Optional[StrictStr] = Field(default=None, description="Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.")
     values: Optional[Dict[str, List[Dict[str, Any]]]] = Field(default=None, description="Product attributes values, see <a href='/concepts/products.html#focus-on-the-product-values'>Product values</a> section for more details")
     associations: Optional[Products1AllOfEmbeddedItemsInnerAllOfAssociations] = None
     quantified_associations: Optional[Products1AllOfEmbeddedItemsInnerAllOfQuantifiedAssociations] = None
@@ -123,10 +123,10 @@ class ProductList(BaseModel):
             "uuid": obj.get("uuid"),
             "identifier": obj.get("identifier"),
             "enabled": obj.get("enabled") if obj.get("enabled") is not None else True,
-            "family": obj.get("family") if obj.get("family") is not None else 'null',
+            "family": obj.get("family"),
             "categories": obj.get("categories"),
             "groups": obj.get("groups"),
-            "parent": obj.get("parent") if obj.get("parent") is not None else 'null',
+            "parent": obj.get("parent"),
             "values": obj.get("values"),
             "associations": Products1AllOfEmbeddedItemsInnerAllOfAssociations.from_dict(obj["associations"]) if obj.get("associations") is not None else None,
             "quantified_associations": Products1AllOfEmbeddedItemsInnerAllOfQuantifiedAssociations.from_dict(obj["quantified_associations"]) if obj.get("quantified_associations") is not None else None,

@@ -15,13 +15,13 @@ Name | Type | Description | Notes
 **is_textarea** | **bool** | Whether the UI should display a text area instead of a simple field when the attribute type is &#x60;text&#x60; | [optional] [default to False]
 **is_rich_text_editor** | **bool** | Whether the UI should display a rich text editor instead of a simple text area when the attribute type is &#x60;text&#x60; | [optional] 
 **validation_rule** | **str** | Validation rule type used to validate the attribute value when the attribute type is &#x60;text&#x60; | [optional] [default to 'none']
-**validation_regexp** | **str** | Regexp expression used to validate the attribute value when the attribute type is &#x60;text&#x60; | [optional] [default to 'null']
+**validation_regexp** | **str** | Regexp expression used to validate the attribute value when the attribute type is &#x60;text&#x60; | [optional] 
 **allowed_extensions** | **List[str]** | Extensions allowed when the attribute type is &#x60;image&#x60; | [optional] 
-**max_file_size** | **str** | Max file size in MB when the attribute type is &#x60;image&#x60; | [optional] [default to 'null']
-**reference_entity_code** | **str** | Code of the linked reference entity when the attribute type is &#x60;reference_entity_single_link&#x60; or &#x60;reference_entity_multiple_links&#x60; | [optional] [default to 'null']
+**max_file_size** | **str** | Max file size in MB when the attribute type is &#x60;image&#x60; | [optional] 
+**reference_entity_code** | **str** | Code of the linked reference entity when the attribute type is &#x60;reference_entity_single_link&#x60; or &#x60;reference_entity_multiple_links&#x60; | [optional] 
 **decimals_allowed** | **bool** | Whether decimals are allowed when the attribute type is &#x60;number&#x60; | [optional] [default to False]
-**min_value** | **str** | Minimum value allowed when the attribute type is &#x60;number&#x60; | [optional] [default to 'null']
-**max_value** | **str** | Maximum value allowed when the attribute type is &#x60;number&#x60; | [optional] [default to 'null']
+**min_value** | **str** | Minimum value allowed when the attribute type is &#x60;number&#x60; | [optional] 
+**max_value** | **str** | Maximum value allowed when the attribute type is &#x60;number&#x60; | [optional] 
 
 ## Example
 

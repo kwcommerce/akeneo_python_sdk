@@ -31,7 +31,7 @@ class ReferenceEntitiesAllOfEmbeddedItemsInner(BaseModel):
     links: Optional[ReferenceEntitiesAllOfEmbeddedItemsInnerAllOfLinks] = Field(default=None, alias="_links")
     code: StrictStr = Field(description="Reference entity code")
     labels: Optional[ReferenceEntitiesAllOfEmbeddedItemsInnerAllOfLabels] = None
-    image: Optional[StrictStr] = Field(default='null', description="Code of the reference entity image")
+    image: Optional[StrictStr] = Field(default=None, description="Code of the reference entity image")
     __properties: ClassVar[List[str]] = ["_links", "code", "labels", "image"]
 
     model_config = ConfigDict(
@@ -94,7 +94,7 @@ class ReferenceEntitiesAllOfEmbeddedItemsInner(BaseModel):
             "_links": ReferenceEntitiesAllOfEmbeddedItemsInnerAllOfLinks.from_dict(obj["_links"]) if obj.get("_links") is not None else None,
             "code": obj.get("code"),
             "labels": ReferenceEntitiesAllOfEmbeddedItemsInnerAllOfLabels.from_dict(obj["labels"]) if obj.get("labels") is not None else None,
-            "image": obj.get("image") if obj.get("image") is not None else 'null'
+            "image": obj.get("image")
         })
         return _obj
 

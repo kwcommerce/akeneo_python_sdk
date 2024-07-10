@@ -33,7 +33,7 @@ class PostProductModelsRequest(BaseModel):
     code: StrictStr = Field(description="Product model code")
     family: Optional[StrictStr] = Field(default=None, description="<a href='api-reference.html#Family'>Family</a> code  from which the product inherits its attributes and attributes requirements (since the 3.2)")
     family_variant: StrictStr = Field(description="Family variant code from which the product model inherits its attributes and variant attributes")
-    parent: Optional[StrictStr] = Field(default='null', description="Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.")
+    parent: Optional[StrictStr] = Field(default=None, description="Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.")
     categories: Optional[List[StrictStr]] = Field(default=None, description="Codes of the <a href='api-reference.html#Category'>categories</a> in which the product model is categorized")
     values: Optional[ProductModelsAllOfEmbeddedItemsInnerAllOfValues] = None
     associations: Optional[ProductModelsAllOfEmbeddedItemsInnerAllOfAssociations] = None
@@ -110,7 +110,7 @@ class PostProductModelsRequest(BaseModel):
             "code": obj.get("code"),
             "family": obj.get("family"),
             "family_variant": obj.get("family_variant"),
-            "parent": obj.get("parent") if obj.get("parent") is not None else 'null',
+            "parent": obj.get("parent"),
             "categories": obj.get("categories"),
             "values": ProductModelsAllOfEmbeddedItemsInnerAllOfValues.from_dict(obj["values"]) if obj.get("values") is not None else None,
             "associations": ProductModelsAllOfEmbeddedItemsInnerAllOfAssociations.from_dict(obj["associations"]) if obj.get("associations") is not None else None,

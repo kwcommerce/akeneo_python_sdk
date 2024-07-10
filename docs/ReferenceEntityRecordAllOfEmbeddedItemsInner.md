@@ -8,8 +8,8 @@ Name | Type | Description | Notes
 **links** | [**ProductsAllOfEmbeddedItemsInnerAllOfLinks**](ProductsAllOfEmbeddedItemsInnerAllOfLinks.md) |  | [optional] 
 **code** | **str** | Code of the record | 
 **values** | [**ReferenceEntityRecordAllOfEmbeddedItemsInnerAllOfValues**](ReferenceEntityRecordAllOfEmbeddedItemsInnerAllOfValues.md) |  | [optional] 
-**created** | **str** | Date of creation. | [optional] [default to 'null']
-**updated** | **str** | Date of the last update. | [optional] [default to 'null']
+**created** | **str** | Date of creation. | [optional] 
+**updated** | **str** | Date of the last update. | [optional] 
 
 ## Example
 

@@ -38,16 +38,16 @@ class GetAssetFamiliesCodeAttributes200ResponseInner(BaseModel):
     is_textarea: Optional[StrictBool] = Field(default=False, description="Whether the UI should display a text area instead of a simple field when the attribute type is `text`")
     is_rich_text_editor: Optional[StrictBool] = Field(default=None, description="Whether the UI should display a rich text editor instead of a simple text area when the attribute type is `text`")
     validation_rule: Optional[StrictStr] = Field(default='none', description="Validation rule type used to validate the attribute value when the attribute type is `text`")
-    validation_regexp: Optional[StrictStr] = Field(default='null', description="Regexp expression used to validate the attribute value when the attribute type is `text`")
+    validation_regexp: Optional[StrictStr] = Field(default=None, description="Regexp expression used to validate the attribute value when the attribute type is `text`")
     allowed_extensions: Optional[List[StrictStr]] = Field(default=None, description="Extensions allowed when the attribute type is `media_file`")
-    max_file_size: Optional[StrictStr] = Field(default='null', description="Max file size in MB when the attribute type is `media_file`")
+    max_file_size: Optional[StrictStr] = Field(default=None, description="Max file size in MB when the attribute type is `media_file`")
     decimals_allowed: Optional[StrictBool] = Field(default=False, description="Whether decimals are allowed when the attribute type is `number`")
-    min_value: Optional[StrictStr] = Field(default='null', description="Minimum value allowed when the attribute type is `number`")
-    max_value: Optional[StrictStr] = Field(default='null', description="Maximum value allowed when the attribute type is `number`")
+    min_value: Optional[StrictStr] = Field(default=None, description="Minimum value allowed when the attribute type is `number`")
+    max_value: Optional[StrictStr] = Field(default=None, description="Maximum value allowed when the attribute type is `number`")
     media_type: StrictStr = Field(description="For the `media_link` attribute type, it is the type of the media behind the url, to allow its preview in the PIM. For the `media_file` attribute type, it is the type of the file.")
-    prefix: Optional[StrictStr] = Field(default='null', description="Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media")
-    suffix: Optional[StrictStr] = Field(default='null', description="Suffix of the `media_link` attribute type. The common url suffix for the media")
-    reference_entity: Optional[StrictStr] = Field(default='null', description="Reference entity code for the `record` attribute type (see <a href='/api-reference.html#Referenceentity'>Reference entity</a>).")
+    prefix: Optional[StrictStr] = Field(default=None, description="Prefix of the `media_link` attribute type. The common url root that prefixes the link to the media")
+    suffix: Optional[StrictStr] = Field(default=None, description="Suffix of the `media_link` attribute type. The common url suffix for the media")
+    reference_entity: Optional[StrictStr] = Field(default=None, description="Reference entity code for the `record` attribute type (see <a href='/api-reference.html#Referenceentity'>Reference entity</a>).")
     __properties: ClassVar[List[str]] = ["code", "labels", "type", "value_per_locale", "value_per_channel", "is_required_for_completeness", "is_read_only", "max_characters", "is_textarea", "is_rich_text_editor", "validation_rule", "validation_regexp", "allowed_extensions", "max_file_size", "decimals_allowed", "min_value", "max_value", "media_type", "prefix", "suffix", "reference_entity"]
 
     @field_validator('type')
@@ -139,16 +139,16 @@ class GetAssetFamiliesCodeAttributes200ResponseInner(BaseModel):
             "is_textarea": obj.get("is_textarea") if obj.get("is_textarea") is not None else False,
             "is_rich_text_editor": obj.get("is_rich_text_editor"),
             "validation_rule": obj.get("validation_rule") if obj.get("validation_rule") is not None else 'none',
-            "validation_regexp": obj.get("validation_regexp") if obj.get("validation_regexp") is not None else 'null',
+            "validation_regexp": obj.get("validation_regexp"),
             "allowed_extensions": obj.get("allowed_extensions"),
-            "max_file_size": obj.get("max_file_size") if obj.get("max_file_size") is not None else 'null',
+            "max_file_size": obj.get("max_file_size"),
             "decimals_allowed": obj.get("decimals_allowed") if obj.get("decimals_allowed") is not None else False,
-            "min_value": obj.get("min_value") if obj.get("min_value") is not None else 'null',
-            "max_value": obj.get("max_value") if obj.get("max_value") is not None else 'null',
+            "min_value": obj.get("min_value"),
+            "max_value": obj.get("max_value"),
             "media_type": obj.get("media_type"),
-            "prefix": obj.get("prefix") if obj.get("prefix") is not None else 'null',
-            "suffix": obj.get("suffix") if obj.get("suffix") is not None else 'null',
-            "reference_entity": obj.get("reference_entity") if obj.get("reference_entity") is not None else 'null'
+            "prefix": obj.get("prefix"),
+            "suffix": obj.get("suffix"),
+            "reference_entity": obj.get("reference_entity")
         })
         return _obj
 

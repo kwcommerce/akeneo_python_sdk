@@ -32,7 +32,7 @@ class FamilyList(BaseModel):
     links: Optional[ProductsAllOfEmbeddedItemsInnerAllOfLinks] = Field(default=None, alias="_links")
     code: StrictStr = Field(description="Family code")
     attribute_as_label: StrictStr = Field(description="Attribute code used as label")
-    attribute_as_image: Optional[StrictStr] = Field(default='null', description="Attribute code used as the main picture in the user interface (only since v2.0)")
+    attribute_as_image: Optional[StrictStr] = Field(default=None, description="Attribute code used as the main picture in the user interface (only since v2.0)")
     attributes: Optional[List[StrictStr]] = Field(default=None, description="Attributes codes that compose the family")
     attribute_requirements: Optional[FamiliesAllOfEmbeddedItemsInnerAllOfAttributeRequirements] = None
     labels: Optional[FamiliesAllOfEmbeddedItemsInnerAllOfLabels] = None
@@ -101,7 +101,7 @@ class FamilyList(BaseModel):
             "_links": ProductsAllOfEmbeddedItemsInnerAllOfLinks.from_dict(obj["_links"]) if obj.get("_links") is not None else None,
             "code": obj.get("code"),
             "attribute_as_label": obj.get("attribute_as_label"),
-            "attribute_as_image": obj.get("attribute_as_image") if obj.get("attribute_as_image") is not None else 'null',
+            "attribute_as_image": obj.get("attribute_as_image"),
             "attributes": obj.get("attributes"),
             "attribute_requirements": FamiliesAllOfEmbeddedItemsInnerAllOfAttributeRequirements.from_dict(obj["attribute_requirements"]) if obj.get("attribute_requirements") is not None else None,
             "labels": FamiliesAllOfEmbeddedItemsInnerAllOfLabels.from_dict(obj["labels"]) if obj.get("labels") is not None else None

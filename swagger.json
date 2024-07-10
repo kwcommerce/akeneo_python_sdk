@@ -239,7 +239,7 @@
                                     "type": "string",
                                     "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                                     "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                                    "default": "null only in the case of a non variant product"
+                                    "default": null
                                   },
                                   "categories": {
                                     "type": "array",
@@ -263,7 +263,7 @@
                                     "type": "string",
                                     "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                                    "default": "null",
+                                    "default": null,
                                     "x-from-version": "2.0"
                                   },
                                   "values": {
@@ -1151,7 +1151,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -1175,7 +1175,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -1686,7 +1686,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -1710,7 +1710,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -2280,7 +2280,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -2304,7 +2304,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -2776,7 +2776,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -2800,7 +2800,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -3518,7 +3518,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -3542,7 +3542,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -4217,7 +4217,7 @@
                                     "type": "string",
                                     "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                                     "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                                    "default": "null only in the case of a non variant product"
+                                    "default": null
                                   },
                                   "categories": {
                                     "type": "array",
@@ -4241,7 +4241,7 @@
                                     "type": "string",
                                     "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                                     "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                                    "default": "null",
+                                    "default": null,
                                     "x-from-version": "2.0"
                                   },
                                   "values": {
@@ -6190,7 +6190,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -6214,7 +6214,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -6739,7 +6739,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -6763,7 +6763,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -7328,7 +7328,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -7352,7 +7352,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -7841,7 +7841,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -7865,7 +7865,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -8610,7 +8610,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
                   "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-                  "default": "null only in the case of a non variant product"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -8634,7 +8634,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
                   "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "values": {
@@ -9306,7 +9306,7 @@
                                     "type": "string",
                                     "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                                     "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                                    "default": "null",
+                                    "default": null,
                                     "x-from-version": "2.3"
                                   },
                                   "categories": {
@@ -9951,7 +9951,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -10392,7 +10392,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -10875,7 +10875,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -11280,7 +11280,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -11937,7 +11937,7 @@
                   "type": "string",
                   "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
                   "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.3"
                 },
                 "categories": {
@@ -12507,7 +12507,7 @@
                                     "type": "string",
                                     "description": "<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements",
                                     "x-validation-rules": "It is equal to an existing family code",
-                                    "default": "null"
+                                    "default": null
                                   },
                                   "categories": {
                                     "type": "array",
@@ -13064,7 +13064,7 @@
                   "type": "string",
                   "description": "<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements",
                   "x-validation-rules": "It is equal to an existing family code",
-                  "default": "null"
+                  "default": null
                 },
                 "categories": {
                   "type": "array",
@@ -14281,7 +14281,7 @@
                                     "type": "string",
                                     "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                                     "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                                    "default": "null",
+                                    "default": null,
                                     "x-from-version": "2.0"
                                   },
                                   "attributes": {
@@ -14567,7 +14567,7 @@
                   "type": "string",
                   "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                   "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "attributes": {
@@ -14812,7 +14812,7 @@
                   "type": "string",
                   "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                   "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "attributes": {
@@ -15061,7 +15061,7 @@
                   "type": "string",
                   "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                   "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "attributes": {
@@ -15270,7 +15270,7 @@
                   "type": "string",
                   "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
                   "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-                  "default": "null",
+                  "default": null,
                   "x-from-version": "2.0"
                 },
                 "attributes": {
@@ -24631,7 +24631,7 @@
                                     "type": "string",
                                     "description": "Category code of the parent's category",
                                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                                    "default": "null"
+                                    "default": null
                                   },
                                   "updated": {
                                     "type": "string",
@@ -24963,7 +24963,7 @@
                   "type": "string",
                   "description": "Category code of the parent's category",
                   "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                  "default": "null"
+                  "default": null
                 },
                 "updated": {
                   "type": "string",
@@ -25211,7 +25211,7 @@
                   "type": "string",
                   "description": "Category code of the parent's category",
                   "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                  "default": "null"
+                  "default": null
                 },
                 "updated": {
                   "type": "string",
@@ -25479,7 +25479,7 @@
                   "type": "string",
                   "description": "Category code of the parent's category",
                   "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                  "default": "null"
+                  "default": null
                 },
                 "updated": {
                   "type": "string",
@@ -25704,7 +25704,7 @@
                   "type": "string",
                   "description": "Category code of the parent's category",
                   "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-                  "default": "null"
+                  "default": null
                 },
                 "updated": {
                   "type": "string",
@@ -38546,7 +38546,7 @@
                                     "type": "string",
                                     "description": "PAM ssset category code of the parent's asset category",
                                     "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                                    "default": "null"
+                                    "default": null
                                   },
                                   "labels": {
                                     "type": "object",
@@ -38742,7 +38742,7 @@
                   "type": "string",
                   "description": "PAM ssset category code of the parent's asset category",
                   "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                  "default": "null"
+                  "default": null
                 },
                 "labels": {
                   "type": "object",
@@ -38931,7 +38931,7 @@
                   "type": "string",
                   "description": "PAM ssset category code of the parent's asset category",
                   "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                  "default": "null"
+                  "default": null
                 },
                 "labels": {
                   "type": "object",
@@ -39124,7 +39124,7 @@
                   "type": "string",
                   "description": "PAM ssset category code of the parent's asset category",
                   "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                  "default": "null"
+                  "default": null
                 },
                 "labels": {
                   "type": "object",
@@ -39277,7 +39277,7 @@
                   "type": "string",
                   "description": "PAM ssset category code of the parent's asset category",
                   "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-                  "default": "null"
+                  "default": null
                 },
                 "labels": {
                   "type": "object",
@@ -43772,7 +43772,7 @@
           "type": "string",
           "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
           "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-          "default": "null only in the case of a non variant product"
+          "default": null
         },
         "categories": {
           "type": "array",
@@ -43796,7 +43796,7 @@
           "type": "string",
           "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
           "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-          "default": "null",
+          "default": null,
           "x-from-version": "2.0"
         },
         "values": {
@@ -45630,7 +45630,7 @@
               "type": "string",
               "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
               "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-              "default": "null only in the case of a non variant product"
+              "default": null
             },
             "categories": {
               "type": "array",
@@ -45654,7 +45654,7 @@
               "type": "string",
               "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
               "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-              "default": "null",
+              "default": null,
               "x-from-version": "2.0"
             },
             "values": {
@@ -46021,7 +46021,7 @@
           "type": "string",
           "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
           "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-          "default": "null only in the case of a non variant product"
+          "default": null
         },
         "categories": {
           "type": "array",
@@ -46045,7 +46045,7 @@
           "type": "string",
           "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
           "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-          "default": "null",
+          "default": null,
           "x-from-version": "2.0"
         },
         "values": {
@@ -46836,7 +46836,7 @@
               "type": "string",
               "description": "<a href='api-reference.html#Family'>Family</a> code from which the product inherits its attributes and attributes requirements.",
               "x-validation-rules": "It is equal to an existing family code. In the case of variant product, the given family should be the same as the product model family.",
-              "default": "null only in the case of a non variant product"
+              "default": null
             },
             "categories": {
               "type": "array",
@@ -46860,7 +46860,7 @@
               "type": "string",
               "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a> when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3.",
               "x-validation-rules": "It is equal to an existing product model code only if the product is variant otherwise it's equal to null",
-              "default": "null",
+              "default": null,
               "x-from-version": "2.0"
             },
             "values": {
@@ -47237,7 +47237,7 @@
           "type": "string",
           "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
           "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-          "default": "null",
+          "default": null,
           "x-from-version": "2.3"
         },
         "categories": {
@@ -47570,7 +47570,7 @@
               "type": "string",
               "description": "Code of the parent <a href='api-reference.html#Productmodel'>product model</a>. This parent can be modified since the 2.3.",
               "x-validation-rules": "&bull; It is equal to an existing product model code&#10;&bull; This product model has the same family variant as the one given in the `family_variant field`",
-              "default": "null",
+              "default": null,
               "x-from-version": "2.3"
             },
             "categories": {
@@ -47873,7 +47873,7 @@
           "type": "string",
           "description": "<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements",
           "x-validation-rules": "It is equal to an existing family code",
-          "default": "null"
+          "default": null
         },
         "categories": {
           "type": "array",
@@ -48084,7 +48084,7 @@
               "type": "string",
               "description": "<a href='api-reference.html#Family'>Family</a> code from which the published product inherits its attributes and attributes requirements",
               "x-validation-rules": "It is equal to an existing family code",
-              "default": "null"
+              "default": null
             },
             "categories": {
               "type": "array",
@@ -49038,7 +49038,7 @@
           "type": "string",
           "description": "Category code of the parent's category",
           "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-          "default": "null"
+          "default": null
         },
         "updated": {
           "type": "string",
@@ -49147,7 +49147,7 @@
           "type": "string",
           "description": "Category code of the parent's category",
           "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-          "default": "null"
+          "default": null
         },
         "updated": {
           "type": "string",
@@ -49265,7 +49265,7 @@
               "type": "string",
               "description": "Category code of the parent's category",
               "x-validation-rules": "&bull; It is either equal to `null` or to an existing category code. &#10;&bull; If equal to an existing category code, it cannot reference itself.",
-              "default": "null"
+              "default": null
             },
             "updated": {
               "type": "string",
@@ -49814,7 +49814,7 @@
           "type": "string",
           "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
           "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-          "default": "null",
+          "default": null,
           "x-from-version": "2.0"
         },
         "attributes": {
@@ -49929,7 +49929,7 @@
               "type": "string",
               "description": "Attribute code used as the main picture in the user interface (only since v2.0)",
               "x-validation-rules": "&bull; It is equal to an existing attribute code &#10;&bull; This attribute code is in the array of the property `attributes` &#10;&bull; The type of this attribute is `pim_catalog_image`. Since v2.1, you can also use a `pim_assets_collection` attribute type",
-              "default": "null",
+              "default": null,
               "x-from-version": "2.0"
             },
             "attributes": {
@@ -53240,7 +53240,7 @@
           "type": "string",
           "description": "PAM ssset category code of the parent's asset category",
           "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-          "default": "null"
+          "default": null
         },
         "labels": {
           "type": "object",
@@ -53301,7 +53301,7 @@
               "type": "string",
               "description": "PAM ssset category code of the parent's asset category",
               "x-validation-rules": "&bull; It is either equal to `null` or to an existing asset category code. &#10;&bull; If equal to an existing asset category code, it cannot reference itself.",
-              "default": "null"
+              "default": null
             },
             "labels": {
               "type": "object",

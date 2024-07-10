@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **uuid** | **str** | Product UUID | [optional] 
 **identifier** | **str** | Product identifier, i.e. the value of the only &#x60;pim_catalog_identifier&#x60; attribute | 
 **enabled** | **bool** | Whether the product is enabled | [optional] [default to True]
-**family** | **str** | &lt;a href&#x3D;&#39;api-reference.html#Family&#39;&gt;Family&lt;/a&gt; code from which the product inherits its attributes and attributes requirements. | [optional] [default to 'null only in the case of a non variant product']
+**family** | **str** | &lt;a href&#x3D;&#39;api-reference.html#Family&#39;&gt;Family&lt;/a&gt; code from which the product inherits its attributes and attributes requirements. | [optional] [default to 'null']
 **categories** | **List[str]** | Codes of the &lt;a href&#x3D;&#39;api-reference.html#Category&#39;&gt;categories&lt;/a&gt; in which the product is classified | [optional] 
 **groups** | **List[str]** | Codes of the groups to which the product belong | [optional] 
 **parent** | **str** | Code of the parent &lt;a href&#x3D;&#39;api-reference.html#Productmodel&#39;&gt;product model&lt;/a&gt; when the product is a variant (only available since the 2.0). This parent can be modified since the 2.3. | [optional] [default to 'null']
